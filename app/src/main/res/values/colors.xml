@@ -91,4 +91,18 @@
     <color name="modern_back_button_icon">#FFFFFF</color>
     <color name="modern_back_button_shadow">#40000000</color>
     <color name="modern_back_button_ripple">#30FFFFFF</color>
+    
+    <!-- Toolbar Colors (matching navbar) -->
+    <color name="toolbar_background">#2E7D32</color>
+    <color name="toolbar_text">#FFFFFF</color>
+    <color name="toolbar_shadow">#40000000</color>
+    
+    <!-- Logo Background -->
+    <color name="logo_background">#FF4444</color>
+    
+    <!-- Link Colors -->
+    <color name="link_color">#1976D2</color>
+    <color name="link_color_pressed">#1565C0</color>
+    <color name="instagram_color">#E4405F</color>
+    <color name="github_color">#333333</color>
 </resources>

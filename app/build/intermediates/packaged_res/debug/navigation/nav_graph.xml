@@ -111,4 +111,14 @@
         app:popEnterAnim="@anim/modern_slide_in_right"
         app:popExitAnim="@anim/modern_slide_out_left" />
 
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.okey101rules.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings"
+        app:enterAnim="@anim/modern_fade_in"
+        app:exitAnim="@anim/modern_fade_out"
+        app:popEnterAnim="@anim/modern_slide_in_right"
+        app:popExitAnim="@anim/modern_slide_out_left" />
+
 </navigation>

@@ -3,11 +3,7 @@
     android:color="@color/modern_back_button_ripple">
     <item android:id="@android:id/background">
         <shape android:shape="oval">
-            <gradient
-                android:startColor="@color/modern_back_button_gradient_start"
-                android:endColor="@color/modern_back_button_gradient_end"
-                android:angle="135"
-                android:type="linear" />
+            <solid android:color="@android:color/transparent" />
             <size android:width="40dp" android:height="40dp" />
         </shape>
     </item>

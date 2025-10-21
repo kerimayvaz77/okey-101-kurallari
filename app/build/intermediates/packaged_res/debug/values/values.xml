@@ -17,6 +17,7 @@
     <color name="card_stroke">#E0E0E0</color>
     <color name="dialog_overlay">#80000000</color>
     <color name="error">#B00020</color>
+    <color name="github_color">#333333</color>
     <color name="gradient_end">#764ba2</color>
     <color name="gradient_middle">#f093fb</color>
     <color name="gradient_start">#667eea</color>
@@ -26,6 +27,10 @@
     <color name="holo_green_light">#E8F5E8</color>
     <color name="holo_red_dark">#F44336</color>
     <color name="holo_red_light">#FFEBEE</color>
+    <color name="instagram_color">#E4405F</color>
+    <color name="link_color">#1976D2</color>
+    <color name="link_color_pressed">#1565C0</color>
+    <color name="logo_background">#FF4444</color>
     <color name="modern_back_button_gradient_end">#764ba2</color>
     <color name="modern_back_button_gradient_pressed_end">#6a4190</color>
     <color name="modern_back_button_gradient_pressed_start">#5a6fd8</color>
@@ -57,6 +62,9 @@
     <color name="text_hint">#BDBDBD</color>
     <color name="text_primary">#212121</color>
     <color name="text_secondary">#757575</color>
+    <color name="toolbar_background">#2E7D32</color>
+    <color name="toolbar_shadow">#40000000</color>
+    <color name="toolbar_text">#FFFFFF</color>
     <color name="white">#FFFFFF</color>
     <dimen name="bottom_nav_elevation">16dp</dimen>
     <dimen name="bottom_nav_icon_size">28dp</dimen>
@@ -81,6 +89,7 @@
     <dimen name="text_size_subtitle">12sp</dimen>
     <dimen name="text_size_title">18sp</dimen>
     <integer name="grid_column_count">1</integer>
+    <string name="app_description">Bu uygulama, 101 Okey oyununun tüm kurallarını detaylı bir şekilde açıklayan kapsamlı bir rehberdir. Oyunun temel kurallarından stratejilerine kadar her şeyi bulabilirsiniz.</string>
     <string name="app_name">🀄 OKEY 101 KURALLARI ✨</string>
     <string name="burak_subtitle">Burak ile oyun istatistiklerin</string>
     <string name="burak_title">👑 BURAK İLE OYUN 📊</string>
@@ -99,6 +108,7 @@
     <string name="faq_subtitle">En çok merak edilen sorular ve cevapları</string>
     <string name="faq_title">❓ SIKÇA SORULAN SORULAR</string>
     <string name="general_rules">GENEL KURALLAR</string>
+    <string name="github_url">https://github.com/kerimayvaz77</string>
     <string name="hand_opening_and_finish">EL AÇMA VE BİTİŞ</string>
     <string name="home">Ana Sayfa</string>
     <string name="home_subtitle">Tüm kuralları keşfedin ve öğrenin</string>
@@ -106,12 +116,14 @@
     <string name="indicator_and_okey">GÖSTERGE VE OKEY BELİRLEME</string>
     <string name="info_subtitle">101 Okey hakkında temel bilgiler</string>
     <string name="info_title">ℹ️ GENEL BİLGİLER</string>
+    <string name="instagram_url">https://www.instagram.com/kerimayvaz0</string>
     <string name="learn_more">Daha Fazla Bilgi</string>
     <string name="loading">Yükleniyor...</string>
     <string name="nav_burak">BURAK</string>
     <string name="nav_faq">SSS</string>
     <string name="nav_info">BİLGİLER</string>
     <string name="nav_rules">KURALLAR</string>
+    <string name="nav_settings">AYARLAR</string>
     <string name="nav_strategy">STRATEJİLER</string>
     <string name="no_categories">Kategori bulunamadı</string>
     <string name="no_rules">Bu kategoride kural bulunamadı</string>
@@ -122,6 +134,8 @@
     <string name="scoring_system">PUANLAMA SİSTEMİ</string>
     <string name="search_hint">Kurallarda ara...</string>
     <string name="search_results">Arama Sonuçları</string>
+    <string name="settings_subtitle">Program ve kişisel bilgiler</string>
+    <string name="settings_title">⚙️ AYARLAR</string>
     <string name="special_cases">ÖZEL DURUMLAR</string>
     <string name="strategy_subtitle">Daha iyi oynamak için ipuçları</string>
     <string name="strategy_title">🎯 OYUN STRATEJİLERİ</string>
@@ -136,7 +150,6 @@
         <item name="android:fontFamily">@font/roboto_condensed</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:letterSpacing">0.15</item>
-        <item name="android:textStyle">bold</item>
     </style>
     <style name="CustomActionBar" parent="Widget.Material3.ActionBar.Solid">
         <item name="background">@drawable/modern_actionbar_background</item>

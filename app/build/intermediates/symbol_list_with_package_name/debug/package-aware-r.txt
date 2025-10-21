@@ -68,6 +68,7 @@ anim nav_item_scale_up
 anim slide_in_right
 anim slide_out_left
 anim spin
+animator card_elevation_animator
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1505,6 +1506,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color github_color
 color gradient_end
 color gradient_middle
 color gradient_start
@@ -1516,6 +1518,10 @@ color holo_green_dark
 color holo_green_light
 color holo_red_dark
 color holo_red_light
+color instagram_color
+color link_color
+color link_color_pressed
+color logo_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2220,6 +2226,9 @@ color switch_thumb_normal_material_light
 color text_hint
 color text_primary
 color text_secondary
+color toolbar_background
+color toolbar_shadow
+color toolbar_text
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -3153,13 +3162,17 @@ drawable category_icon_gradient
 drawable close_button_background
 drawable compat_splash_screen
 drawable compat_splash_screen_no_icon_background
+drawable description_bg
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit_text_bg
+drawable enhanced_card_bg
 drawable faq_gradient_bg
 drawable faq_header_bg
+drawable floating_emoji_bg
 drawable glassmorphism_card
 drawable ic_arrow_back_black_24
 drawable ic_arrow_back_modern
@@ -3177,7 +3190,9 @@ drawable ic_clock_black_24dp
 drawable ic_close
 drawable ic_empty_box
 drawable ic_faq
+drawable ic_github
 drawable ic_info
+drawable ic_instagram
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3203,7 +3218,9 @@ drawable info_gradient_bg
 drawable info_header_gradient
 drawable info_icon_bg
 drawable info_icon_gradient
+drawable info_row_bg
 drawable kural
+drawable link_button_bg
 drawable list_item_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3293,6 +3310,7 @@ drawable rule_photo
 drawable rule_photo_placeholder
 drawable search_input_background
 drawable search_view_background
+drawable send_button_bg
 drawable strategy_gradient_bg
 drawable strategy_header_bg
 drawable test_level_drawable
@@ -3388,6 +3406,8 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appDescriptionCard
+id appNameRow
 id app_icon_card
 id arc
 id asConfigured
@@ -3442,6 +3462,7 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
+id contactRow
 id container
 id content
 id contentPanel
@@ -3468,6 +3489,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id developerRow
 id dialogCard
 id dialog_button
 id dimensions
@@ -3499,6 +3521,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id errorDescription
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3523,6 +3546,8 @@ id fullscreen_header
 id generalInfoFragment
 id ghost_view
 id ghost_view_holder
+id githubLink
+id githubRow
 id gone
 id graph
 id graph_wrap
@@ -3551,6 +3576,8 @@ id immediateStop
 id included
 id indeterminate
 id info
+id instagramLink
+id instagramRow
 id invisible
 id inward
 id is_pooling_container_tag
@@ -3631,6 +3658,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameRow
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment
@@ -3684,11 +3712,14 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id personalInfoCard
 id pin
+id platformRow
 id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
+id programInfoCard
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -3701,12 +3732,15 @@ id recyclerViewInfo
 id recyclerViewRules
 id recyclerViewSearchResults
 id recyclerViewStrategy
+id releaseDateRow
+id reportErrorCard
 id report_drawn
 id reverseSawtooth
 id right
 id rightToLeft
 id right_icon
 id right_side
+id roleRow
 id rounded
 id row_index_key
 id rtl
@@ -3738,6 +3772,9 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id sendErrorButton
+id settingsEmoji
+id settingsFragment
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3854,6 +3891,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id versionRow
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -4018,6 +4056,7 @@ layout fragment_general_info
 layout fragment_home
 layout fragment_rule_detail
 layout fragment_search_results
+layout fragment_settings
 layout fragment_strategy
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
@@ -4121,6 +4160,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
+string app_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -4163,6 +4203,7 @@ string fab_transformation_sheet_behavior
 string faq_subtitle
 string faq_title
 string general_rules
+string github_url
 string hand_opening_and_finish
 string hide_bottom_view_on_scroll_behavior
 string home
@@ -4172,6 +4213,7 @@ string icon_content_description
 string indicator_and_okey
 string info_subtitle
 string info_title
+string instagram_url
 string item_view_role_description
 string learn_more
 string loading
@@ -4281,6 +4323,7 @@ string nav_burak
 string nav_faq
 string nav_info
 string nav_rules
+string nav_settings
 string nav_strategy
 string no_categories
 string no_rules
@@ -4300,6 +4343,8 @@ string search_results
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string settings_subtitle
+string settings_title
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string special_cases

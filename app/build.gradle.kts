@@ -15,8 +15,8 @@ android {
         applicationId = "com.example.okey101rules"
         minSdk = 21
         targetSdk = 34
-        versionCode = 2
-        versionName = "2.0"
+        versionCode = 18
+        versionName = "2.18"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -42,6 +42,14 @@ android {
     
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "META-INF/NOTICE.md"
+            excludes += "META-INF/LICENSE.md"
+        }
     }
 }
 
@@ -86,6 +94,10 @@ dependencies {
     
     // Splash Screen
     implementation("androidx.core:core-splashscreen:1.0.1")
+    
+    // Mail
+    implementation("com.sun.mail:android-mail:1.6.7")
+    implementation("com.sun.mail:android-activation:1.6.7")
     
     // Testing
     testImplementation("junit:junit:4.13.2")

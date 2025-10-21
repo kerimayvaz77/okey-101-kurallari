@@ -89,6 +89,12 @@ class MainActivity : AppCompatActivity() {
             navController.navigate(R.id.burakFragment)
         }
         
+        binding.settingsFragment.setOnClickListener {
+            setSelectedTab(R.id.settingsFragment)
+            animateBottomNavItem(R.id.settingsFragment, true)
+            navController.navigate(R.id.settingsFragment)
+        }
+        
         // Set initial selected tab
         setSelectedTab(R.id.homeFragment)
     }
@@ -100,6 +106,7 @@ class MainActivity : AppCompatActivity() {
         binding.faqFragment.setBackgroundColor(android.graphics.Color.TRANSPARENT)
         binding.strategyFragment.setBackgroundColor(android.graphics.Color.TRANSPARENT)
         binding.burakFragment.setBackgroundColor(android.graphics.Color.TRANSPARENT)
+        binding.settingsFragment.setBackgroundColor(android.graphics.Color.TRANSPARENT)
         
         // Set selected tab background
         val selectedTab = when (selectedTabId) {
@@ -108,6 +115,7 @@ class MainActivity : AppCompatActivity() {
             R.id.faqFragment -> binding.faqFragment
             R.id.strategyFragment -> binding.strategyFragment
             R.id.burakFragment -> binding.burakFragment
+            R.id.settingsFragment -> binding.settingsFragment
             else -> null
         }
         
@@ -121,10 +129,6 @@ class MainActivity : AppCompatActivity() {
         
         // Setup modern back button
         setupModernBackButton()
-        
-        // Start the animated gradient background
-        val background = resources.getDrawable(R.drawable.animated_gradient, null) as? AnimationDrawable
-        background?.start()
         
         // Add subtle pulsing animation to the title
         binding.actionbarTitle.animate()
@@ -153,7 +157,8 @@ class MainActivity : AppCompatActivity() {
                 R.id.generalInfoFragment,
                 R.id.faqFragment,
                 R.id.strategyFragment,
-                R.id.burakFragment
+                R.id.burakFragment,
+                R.id.settingsFragment
             )
             binding.backButton.visibility = if (isTopLevelDestination) android.view.View.GONE else android.view.View.VISIBLE
         }
@@ -215,6 +220,7 @@ class MainActivity : AppCompatActivity() {
             R.id.faqFragment -> binding.faqFragment
             R.id.strategyFragment -> binding.strategyFragment
             R.id.burakFragment -> binding.burakFragment
+            R.id.settingsFragment -> binding.settingsFragment
             else -> null
         }
         

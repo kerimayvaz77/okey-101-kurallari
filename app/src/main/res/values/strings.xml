@@ -42,6 +42,7 @@
     <string name="nav_faq">SSS</string>
     <string name="nav_strategy">STRATEJİLER</string>
     <string name="nav_burak">BURAK</string>
+    <string name="nav_settings">AYARLAR</string>
     
     <!-- Info Section -->
     <string name="info_title">ℹ️ GENEL BİLGİLER</string>
@@ -58,6 +59,15 @@
     <!-- BURAK Section -->
     <string name="burak_title">👑 BURAK İLE OYUN 📊</string>
     <string name="burak_subtitle">Burak ile oyun istatistiklerin</string>
+    
+    <!-- Settings Section -->
+    <string name="settings_title">⚙️ AYARLAR</string>
+    <string name="settings_subtitle">Program ve kişisel bilgiler</string>
+    <string name="app_description">Bu uygulama, 101 Okey oyununun tüm kurallarını detaylı bir şekilde açıklayan kapsamlı bir rehberdir. Oyunun temel kurallarından stratejilerine kadar her şeyi bulabilirsiniz.</string>
+    
+    <!-- Social Media Links -->
+    <string name="instagram_url">https://www.instagram.com/kerimayvaz0</string>
+    <string name="github_url">https://github.com/kerimayvaz77</string>
     
     <!-- Home Section -->
     <string name="home_title">🀄 OKEY 101 KURALLARI</string>

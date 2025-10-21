@@ -54,6 +54,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final FragmentContainerView navHostFragment;
 
   @NonNull
+  public final LinearLayout settingsFragment;
+
+  @NonNull
   public final LinearLayout strategyFragment;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView actionbarTitle,
@@ -61,7 +64,8 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull LinearLayout bottomNavigation, @NonNull LinearLayout burakFragment,
       @NonNull ConstraintLayout customToolbar, @NonNull LinearLayout faqFragment,
       @NonNull LinearLayout generalInfoFragment, @NonNull LinearLayout homeFragment,
-      @NonNull FragmentContainerView navHostFragment, @NonNull LinearLayout strategyFragment) {
+      @NonNull FragmentContainerView navHostFragment, @NonNull LinearLayout settingsFragment,
+      @NonNull LinearLayout strategyFragment) {
     this.rootView = rootView;
     this.actionbarTitle = actionbarTitle;
     this.appIconCard = appIconCard;
@@ -73,6 +77,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.generalInfoFragment = generalInfoFragment;
     this.homeFragment = homeFragment;
     this.navHostFragment = navHostFragment;
+    this.settingsFragment = settingsFragment;
     this.strategyFragment = strategyFragment;
   }
 
@@ -163,6 +168,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.settingsFragment;
+      LinearLayout settingsFragment = ViewBindings.findChildViewById(rootView, id);
+      if (settingsFragment == null) {
+        break missingId;
+      }
+
       id = R.id.strategyFragment;
       LinearLayout strategyFragment = ViewBindings.findChildViewById(rootView, id);
       if (strategyFragment == null) {
@@ -171,7 +182,7 @@ public final class ActivityMainBinding implements ViewBinding {
 
       return new ActivityMainBinding((ConstraintLayout) rootView, actionbarTitle, appIconCard,
           backButton, bottomNavigation, burakFragment, customToolbar, faqFragment,
-          generalInfoFragment, homeFragment, navHostFragment, strategyFragment);
+          generalInfoFragment, homeFragment, navHostFragment, settingsFragment, strategyFragment);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

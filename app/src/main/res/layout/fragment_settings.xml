@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/modern_gradient_bg"
+    android:fillViewport="true"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Animated Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="40dp">
+
+            <!-- Floating Emoji with Animation -->
+            <TextView
+                android:id="@+id/settingsEmoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="⚙️"
+                android:textSize="80sp"
+                android:textAlignment="center"
+                android:elevation="12dp"
+                android:background="@drawable/floating_emoji_bg"
+                android:padding="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="@string/settings_title"
+                android:textAppearance="@style/TextAppearance.App.Display"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:elevation="8dp"
+                android:shadowColor="@color/toolbar_shadow"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"
+                tools:text="⚙️ AYARLAR" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_subtitle"
+                android:textAppearance="@style/TextAppearance.App.Subtitle"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:alpha="0.9"
+                tools:text="Program ve kişisel bilgiler" />
+
+        </LinearLayout>
+
+        <!-- Program Bilgileri Section with Enhanced Design -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/programInfoCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/white"
+            android:background="@drawable/enhanced_card_bg"
+            android:stateListAnimator="@animator/card_elevation_animator">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="36dp">
+
+                <!-- Section Header with Icon -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="28dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📱"
+                        android:textSize="28sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PROGRAM BİLGİLERİ"
+                        android:textAppearance="@style/TextAppearance.App.Title"
+                        android:textColor="@color/text_primary"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-black" />
+
+                </LinearLayout>
+
+                <!-- App Info Row with Enhanced Design -->
+                <LinearLayout
+                    android:id="@+id/appNameRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/info_row_bg"
+                    android:padding="16dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🏷️"
+                        android:textSize="20sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Uygulama Adı:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="normal"
+                        android:fontFamily="sans-serif-medium" />
+
+                </LinearLayout>
+
+                <!-- Version Info Row -->
+                <LinearLayout
+                    android:id="@+id/versionRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/info_row_bg"
+                    android:padding="16dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🔢"
+                        android:textSize="20sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Versiyon:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2.0"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="normal"
+                        android:fontFamily="sans-serif-medium" />
+
+                </LinearLayout>
+
+                <!-- Developer Info Row -->
+                <LinearLayout
+                    android:id="@+id/developerRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/info_row_bg"
+                    android:padding="16dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="👨‍💻"
+                        android:textSize="20sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Geliştirici:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kerim Ayvaz"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="normal"
+                        android:fontFamily="sans-serif-medium" />
+
+                </LinearLayout>
+
+                <!-- Release Date Row -->
+                <LinearLayout
+                    android:id="@+id/releaseDateRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/info_row_bg"
+                    android:padding="16dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📅"
+                        android:textSize="20sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Çıkış Tarihi:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2025 Ekim"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="normal"
+                        android:fontFamily="sans-serif-medium" />
+
+                </LinearLayout>
+
+                <!-- Platform Row -->
+                <LinearLayout
+                    android:id="@+id/platformRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/info_row_bg"
+                    android:padding="16dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🤖"
+                        android:textSize="20sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Platform:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Android"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="normal"
+                        android:fontFamily="sans-serif-medium" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Kişisel Bilgiler Section with Enhanced Design -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/personalInfoCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/white"
+            android:background="@drawable/enhanced_card_bg"
+            android:stateListAnimator="@animator/card_elevation_animator">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="36dp">
+
+                <!-- Section Header with Icon -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="28dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="👤"
+                        android:textSize="28sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="KİŞİSEL BİLGİLER"
+                        android:textAppearance="@style/TextAppearance.App.Title"
+                        android:textColor="@color/text_primary"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-black" />
+
+                </LinearLayout>
+
+                <!-- Name Row -->
+                <LinearLayout
+                    android:id="@+id/nameRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/info_row_bg"
+                    android:padding="16dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="👨"
+                        android:textSize="20sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Ad Soyad:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kerim Ayvaz"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="normal"
+                        android:fontFamily="sans-serif-medium" />
+
+                </LinearLayout>
+
+                <!-- Role Row -->
+                <LinearLayout
+                    android:id="@+id/roleRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/info_row_bg"
+                    android:padding="16dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="💼"
+                        android:textSize="20sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Rol:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geliştirici &amp; Tasarımcı"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="normal"
+                        android:fontFamily="sans-serif-medium" />
+
+                </LinearLayout>
+
+                <!-- Contact Row -->
+                <LinearLayout
+                    android:id="@+id/contactRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/info_row_bg"
+                    android:padding="16dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📧"
+                        android:textSize="20sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="İletişim:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="kerimayvaz@gmail.com"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="normal"
+                        android:fontFamily="sans-serif-medium" />
+
+                </LinearLayout>
+
+                <!-- Instagram Row -->
+                <LinearLayout
+                    android:id="@+id/instagramRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/info_row_bg"
+                    android:padding="16dp"
+                    android:elevation="4dp"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/ic_instagram"
+                        android:layout_marginEnd="12dp"
+                        android:contentDescription="Instagram" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Instagram:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:id="@+id/instagramLink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@kerimayvaz0"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="normal"
+                        android:fontFamily="sans-serif-medium" />
+
+                </LinearLayout>
+
+                <!-- GitHub Row -->
+                <LinearLayout
+                    android:id="@+id/githubRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/info_row_bg"
+                    android:padding="16dp"
+                    android:elevation="4dp"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/ic_github"
+                        android:layout_marginEnd="12dp"
+                        android:contentDescription="GitHub" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GitHub:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:id="@+id/githubLink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="kerimayvaz77"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_secondary"
+                        android:textStyle="normal"
+                        android:fontFamily="sans-serif-medium" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Hata Bildir Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/reportErrorCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/white"
+            android:background="@drawable/enhanced_card_bg"
+            android:stateListAnimator="@animator/card_elevation_animator">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="36dp">
+
+                <!-- Section Header with Icon -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="28dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🐛"
+                        android:textSize="28sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="HATA BİLDİR"
+                        android:textAppearance="@style/TextAppearance.App.Title"
+                        android:textColor="@color/text_primary"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-black" />
+
+                </LinearLayout>
+
+                <!-- Error Description Input -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hata Açıklaması:"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_marginBottom="8dp" />
+
+                    <EditText
+                        android:id="@+id/errorDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:hint="Lütfen karşılaştığınız hatayı detaylı bir şekilde açıklayın..."
+                        android:inputType="textMultiLine|textCapSentences"
+                        android:gravity="top|start"
+                        android:background="@drawable/edit_text_bg"
+                        android:padding="16dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_hint"
+                        android:fontFamily="sans-serif"
+                        android:elevation="2dp"
+                        android:maxLines="6"
+                        android:scrollbars="vertical" />
+
+                </LinearLayout>
+
+                <!-- Send Button -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+
+                    <Button
+                        android:id="@+id/sendErrorButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📧 Gönder"
+                        android:textAppearance="@style/TextAppearance.App.Body"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium"
+                        android:background="@drawable/send_button_bg"
+                        android:padding="16dp"
+                        android:elevation="4dp"
+                        android:minWidth="120dp"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- App Description Section with Enhanced Design -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/appDescriptionCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/white"
+            android:background="@drawable/enhanced_card_bg"
+            android:stateListAnimator="@animator/card_elevation_animator">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="36dp">
+
+                <!-- Section Header with Icon -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="28dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📝"
+                        android:textSize="28sp"
+                        android:layout_marginEnd="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="UYGULAMA HAKKINDA"
+                        android:textAppearance="@style/TextAppearance.App.Title"
+                        android:textColor="@color/text_primary"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-black" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_description"
+                    android:textAppearance="@style/TextAppearance.App.Body"
+                    android:textColor="@color/text_secondary"
+                    android:lineSpacingExtra="6dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/description_bg"
+                    android:padding="20dp"
+                    android:elevation="4dp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>
