@@ -1,7 +1,7 @@
 # 🎯 Okey 101 Kural Rehberi
 
 <div align="center">
-  <img src="screenshot_final.png" alt="Okey 101 Kural Rehberi" width="300"/>
+  <img src="screenshots/screenshot_final.png" alt="Okey 101 Kural Rehberi" width="300"/>
 </div>
 
 ## 📱 Hakkında
@@ -63,9 +63,9 @@ app/
 ## 📱 Ekran Görüntüleri
 
 <div align="center">
-  <img src="screenshot_ultra_modern.png" alt="Ana Ekran" width="200"/>
-  <img src="screenshot_rule_detail.png" alt="Kural Detayı" width="200"/>
-  <img src="screenshot_with_kural.png" alt="Kural Listesi" width="200"/>
+  <img src="screenshots/screenshot_ultra_modern.png" alt="Ana Ekran" width="200"/>
+  <img src="screenshots/screenshot_rule_detail.png" alt="Kural Detayı" width="200"/>
+  <img src="screenshots/screenshot_with_kural.png" alt="Kural Listesi" width="200"/>
 </div>
 
 ## 🚀 Versiyon Geçmişi
