@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:startColor="@color/modern_back_button_gradient_pressed_start"
+        android:endColor="@color/modern_back_button_gradient_pressed_end"
+        android:angle="135"
+        android:type="linear" />
+    <size android:width="48dp" android:height="48dp" />
+</shape>

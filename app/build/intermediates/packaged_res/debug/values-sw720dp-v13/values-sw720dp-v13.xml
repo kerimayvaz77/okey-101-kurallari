@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_nav_elevation">24dp</dimen>
+    <dimen name="bottom_nav_icon_size">36dp</dimen>
+    <dimen name="card_corner_radius">32dp</dimen>
+    <dimen name="card_elevation">24dp</dimen>
+    <dimen name="card_margin_horizontal">32dp</dimen>
+    <dimen name="card_margin_vertical">20dp</dimen>
+    <dimen name="card_padding">40dp</dimen>
+    <dimen name="fragment_padding">32dp</dimen>
+    <dimen name="header_corner_radius">32dp</dimen>
+    <dimen name="header_elevation">20dp</dimen>
+    <dimen name="header_margin_bottom">32dp</dimen>
+    <dimen name="header_padding">28dp</dimen>
+    <dimen name="icon_corner_radius">28dp</dimen>
+    <dimen name="icon_elevation">20dp</dimen>
+    <dimen name="icon_size">96dp</dimen>
+    <dimen name="search_container_corner_radius">24dp</dimen>
+    <dimen name="search_container_elevation">8dp</dimen>
+    <dimen name="search_container_margin_bottom">28dp</dimen>
+    <dimen name="search_container_padding">24dp</dimen>
+    <dimen name="text_size_body">18sp</dimen>
+    <dimen name="text_size_subtitle">16sp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <integer name="grid_column_count">3</integer>
+</resources>

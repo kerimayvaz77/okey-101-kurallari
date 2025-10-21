@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Oyun Ekipmanı",
+    "description": "101 Okey, 106 taştan oluşan bir oyundur. Taşlar 4 farklı renkte (kırmızı, mavi, sarı/yeşil, siyah) her renkten 1'den 13'e kadar numaralandırılmıştır. Her rakamdan 8 taş vardır (her renkten 2'şer adet). Ayrıca 2 adet sahte okey taşı (joker) bulunur. Oyun ıstaka denilen taş tutma düzeneği ile oynanır.",
+    "icon": "ic_game_equipment"
+  },
+  {
+    "title": "Oyuncu Sayısı ve Tur Yapısı",
+    "description": "4 oyuncu ile oynanır. Birden fazla tur üzerinden oynanabilir (3, 5, 7, 9, 11 tur). Oyunun amacı en az ceza puanı toplamaktır. Tüm turlar sonunda en az puana sahip oyuncu kazanır.",
+    "icon": "ic_players"
+  },
+  {
+    "title": "Taş Renkleri",
+    "description": "Oyunda 4 farklı renk bulunur: Kırmızı, Mavi, Sarı (veya Yeşil), ve Siyah. Her renkte 1'den 13'e kadar numaralı taşlar vardır ve her sayıdan 2'şer adet bulunur.",
+    "icon": "ic_colors"
+  },
+  {
+    "title": "Okey (Joker) Sistemİ",
+    "description": "Gösterge taşının bir büyüğü gerçek okey olur. 2 adet gerçek okey ve 2 adet sahte okey vardır. Okey taşları her taşın yerine kullanılabilir ancak 101 oyununda gösterge taşının kendisinin özel bir fonksiyonu yoktur.",
+    "icon": "ic_joker"
+  }
+]
+

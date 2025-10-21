@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.okey101rules.app-mergeDebugResources-52:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/kerimayvaz/.gradle/caches/8.14/transforms/4d9c023ad5bbf8c99f3da7c68dc4d4bc/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

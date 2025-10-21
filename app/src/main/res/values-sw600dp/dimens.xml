@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card Dimensions - 7" Tablet -->
+    <dimen name="card_margin_horizontal">24dp</dimen>
+    <dimen name="card_margin_vertical">16dp</dimen>
+    <dimen name="card_padding">32dp</dimen>
+    <dimen name="card_corner_radius">28dp</dimen>
+    <dimen name="card_elevation">20dp</dimen>
+    
+    <!-- Icon Dimensions - 7" Tablet -->
+    <dimen name="icon_size">80dp</dimen>
+    <dimen name="icon_corner_radius">24dp</dimen>
+    <dimen name="icon_elevation">16dp</dimen>
+    
+    <!-- Text Dimensions - 7" Tablet -->
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_body">16sp</dimen>
+    <dimen name="text_size_subtitle">14sp</dimen>
+    
+    <!-- Fragment Padding - 7" Tablet -->
+    <dimen name="fragment_padding">24dp</dimen>
+    
+    <!-- Bottom Navigation - 7" Tablet -->
+    <dimen name="bottom_nav_elevation">20dp</dimen>
+    <dimen name="bottom_nav_icon_size">32dp</dimen>
+    
+    <!-- Search Container - 7" Tablet -->
+    <dimen name="search_container_margin_bottom">24dp</dimen>
+    <dimen name="search_container_padding">20dp</dimen>
+    <dimen name="search_container_corner_radius">20dp</dimen>
+    <dimen name="search_container_elevation">6dp</dimen>
+    
+    <!-- Header Dimensions - 7" Tablet -->
+    <dimen name="header_margin_bottom">28dp</dimen>
+    <dimen name="header_padding">24dp</dimen>
+    <dimen name="header_corner_radius">28dp</dimen>
+    <dimen name="header_elevation">16dp</dimen>
+</resources>

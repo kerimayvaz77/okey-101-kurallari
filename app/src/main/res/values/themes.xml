@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- Base application theme -->
+    <style name="Theme.Okey101Rules" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        
+        <!-- Surface colors -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/primary_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Action bar -->
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+    
+    <!-- Custom Action Bar -->
+    <style name="CustomActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@drawable/modern_actionbar_background</item>
+        <item name="titleTextColor">@color/actionbar_text</item>
+        <item name="subtitleTextColor">@color/actionbar_text</item>
+        <item name="elevation">12dp</item>
+        <item name="titleTextAppearance">@style/ActionBarTitle</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:homeAsUpIndicator">@null</item>
+        <item name="android:navigationMode">normal</item>
+    </style>
+    
+    <!-- ActionBar Title Style -->
+    <style name="ActionBarTitle" parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/actionbar_text</item>
+        <item name="android:shadowColor">@color/actionbar_shadow</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:fontFamily">@font/roboto_condensed</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.Okey101Rules</item>
+    </style>
+    
+    <!-- Deprecated duplicates removed; styles moved to styles.xml -->
+    
+</resources>

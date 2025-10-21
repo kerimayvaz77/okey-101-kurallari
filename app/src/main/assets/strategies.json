@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "Şans Oyunu Olduğunu Unutmayın",
+    "description": "İnat etmeyin, elinizi gelen ve giden taşlara göre sürekli revize edin. Size gelme ihtimali yüksek olan taşlarla elinizi oluşturun.",
+    "category": "Beklemeye Değer Eller"
+  },
+  {
+    "id": 2,
+    "title": "El Planlama Stratejisi",
+    "description": "Dizilim sırasında sayıların birbirlerini takip etmesi veya aynı olması önemlidir. Taş renkleri de çok önemlidir (aynı sayıda farklı renkler).",
+    "category": "El Planlama"
+  },
+  {
+    "id": 3,
+    "title": "1'den 13'e Kuralı",
+    "description": "İlk önce küçük sayılar, sonra büyükler. Bu sıralamayı esas alarak elinizi planlayın.",
+    "category": "El Planlama"
+  },
+  {
+    "id": 4,
+    "title": "Rakiplerin Taşlarını Takip Edin",
+    "description": "Rakiplerin attığı taşları takip edin. Hangi taşların yere atıldığını not edin. Bu size hangi taşların gelmeyeceği konusunda fikir verir.",
+    "category": "Takip ve Gözlem"
+  },
+  {
+    "id": 5,
+    "title": "Oyunu İyi Takip Edin",
+    "description": "Oyunu çok iyi takip etmelisiniz. Doğru strateji uygulamalısınız. Kim hangi taşı attı, kim ne çekti gibi bilgileri aklınızda tutun.",
+    "category": "Takip ve Gözlem"
+  },
+  {
+    "id": 6,
+    "title": "Esnek Kalın",
+    "description": "Tek bir stratejiye bağlı kalmayın. Gelen taşlara göre planınızı değiştirmekten çekinmeyin.",
+    "category": "Beklemeye Değer Eller"
+  },
+  {
+    "id": 7,
+    "title": "Çift mi Seri mi?",
+    "description": "Hangi yöne gideceğinize erken karar verin. Çifte gidiyorsanız seriyi bırakın, seriye gidiyorsanız çiftleri atın.",
+    "category": "El Planlama"
+  },
+  {
+    "id": 8,
+    "title": "İşlek Taş Atmaktan Kaçının",
+    "description": "Taş atmadan önce yerde açık olan serilere o taşın işleyip işlemediğini kontrol edin. İşlek taş 101 ceza demektir.",
+    "category": "Takip ve Gözlem"
+  },
+  {
+    "id": 9,
+    "title": "Okey'i Doğru Kullanın",
+    "description": "Okey taşını çok erken kullanmayın. Son ana kadar saklayın ve en değerli yerde kullanın.",
+    "category": "El Planlama"
+  },
+  {
+    "id": 10,
+    "title": "Sabırlı Olun",
+    "description": "Aceleci kararlar almayın. Taş çekmeden önce düşünün, atacağınız taşı iyi seçin.",
+    "category": "Beklemeye Değer Eller"
+  }
+]
+

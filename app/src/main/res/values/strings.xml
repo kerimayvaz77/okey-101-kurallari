@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">🀄 OKEY 101 KURALLARI ✨</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Kurallarda ara...</string>
+    <string name="search_results">Arama Sonuçları</string>
+    <string name="no_search_results">Arama sonucu bulunamadı</string>
+    
+    <!-- Categories -->
+    <string name="general_rules">GENEL KURALLAR</string>
+    <string name="indicator_and_okey">GÖSTERGE VE OKEY BELİRLEME</string>
+    <string name="hand_opening_and_finish">EL AÇMA VE BİTİŞ</string>
+    <string name="scoring_system">PUANLAMA SİSTEMİ</string>
+    <string name="special_cases">ÖZEL DURUMLAR</string>
+    
+    <!-- Navigation -->
+    <string name="home">Ana Sayfa</string>
+    <string name="category_detail">Kategori Detayı</string>
+    <string name="rule_detail">Kural Detayı</string>
+    
+    <!-- Empty States -->
+    <string name="no_categories">Kategori bulunamadı</string>
+    <string name="no_rules">Bu kategoride kural bulunamadı</string>
+    <string name="no_search_results_description">Arama kriterlerinize uygun kural bulunamadı. Farklı anahtar kelimeler deneyin.</string>
+    
+    <!-- Error Messages -->
+    <string name="error_loading_data">Veriler yüklenirken hata oluştu</string>
+    <string name="error_database">Veritabanı hatası</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_search_icon">Arama</string>
+    <string name="cd_category_item">Kategori öğesi</string>
+    <string name="cd_rule_item">Kural öğesi</string>
+    <string name="cd_back_button">Geri</string>
+    <string name="cd_empty_state">Boş durum</string>
+    <string name="cd_info_icon">Bilgi ikonu</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_rules">KURALLAR</string>
+    <string name="nav_info">BİLGİLER</string>
+    <string name="nav_faq">SSS</string>
+    <string name="nav_strategy">STRATEJİLER</string>
+    <string name="nav_burak">BURAK</string>
+    
+    <!-- Info Section -->
+    <string name="info_title">ℹ️ GENEL BİLGİLER</string>
+    <string name="info_subtitle">101 Okey hakkında temel bilgiler</string>
+    
+    <!-- FAQ Section -->
+    <string name="faq_title">❓ SIKÇA SORULAN SORULAR</string>
+    <string name="faq_subtitle">En çok merak edilen sorular ve cevapları</string>
+    
+    <!-- Strategy Section -->
+    <string name="strategy_title">🎯 OYUN STRATEJİLERİ</string>
+    <string name="strategy_subtitle">Daha iyi oynamak için ipuçları</string>
+    
+    <!-- BURAK Section -->
+    <string name="burak_title">👑 BURAK İLE OYUN 📊</string>
+    <string name="burak_subtitle">Burak ile oyun istatistiklerin</string>
+    
+    <!-- Home Section -->
+    <string name="home_title">🀄 OKEY 101 KURALLARI</string>
+    <string name="home_subtitle">Tüm kuralları keşfedin ve öğrenin</string>
+    
+    <!-- Dialog -->
+    <string name="cd_close_dialog">Dialogu kapat</string>
+    <string name="learn_more">Daha Fazla Bilgi</string>
+    <string name="exit">Çıkış</string>
+    
+    <!-- Common -->
+    <string name="loading">Yükleniyor...</string>
+    <string name="error">Hata oluştu</string>
+    <string name="retry">Tekrar Dene</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    
+    <!-- Modern Purple-Blue Gradient -->
+    <item android:duration="3000">
+        <shape>
+            <gradient
+                android:angle="45"
+                android:startColor="#667eea"
+                android:centerColor="#764ba2"
+                android:endColor="#f093fb"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Vibrant Pink-Purple Gradient -->
+    <item android:duration="3000">
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="#f093fb"
+                android:centerColor="#667eea"
+                android:endColor="#764ba2"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Deep Blue-Purple Gradient -->
+    <item android:duration="3000">
+        <shape>
+            <gradient
+                android:angle="225"
+                android:startColor="#764ba2"
+                android:centerColor="#f093fb"
+                android:endColor="#667eea"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Electric Blue-Pink Gradient -->
+    <item android:duration="3000">
+        <shape>
+            <gradient
+                android:angle="315"
+                android:startColor="#667eea"
+                android:centerColor="#f093fb"
+                android:endColor="#764ba2"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Sunset Orange-Pink Gradient -->
+    <item android:duration="3000">
+        <shape>
+            <gradient
+                android:angle="45"
+                android:startColor="#ff9a9e"
+                android:centerColor="#fecfef"
+                android:endColor="#fecfef"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Ocean Blue-Teal Gradient -->
+    <item android:duration="3000">
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="#a8edea"
+                android:centerColor="#fed6e3"
+                android:endColor="#667eea"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+</animation-list>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.detail.RuleDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewRuleCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="@color/secondary_color"
+            tools:text="Genel Kurallar - Oyun Tanımı" />
+
+        <TextView
+            android:id="@+id/textViewRuleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+            android:textColor="@color/primary_color"
+            tools:text="Okey 101 Nedir?" />
+
+        <TextView
+            android:id="@+id/textViewRuleDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="4dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            android:textColor="@android:color/black"
+            tools:text="Okey 101, 4 oyuncu ile oynanan bir taş oyunudur. Her oyuncuya 14 taş dağıtılır ve oyuncular bu taşları seri ve grup halinde dizerek el açmaya çalışırlar. İlk el açan oyuncu oyunu kazanır." />
+
+        <!-- Kural Detay Fotoğrafı -->
+        <ImageView
+            android:id="@+id/imageViewRuleDetailPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="@color/surface_variant"
+            android:src="@drawable/photo1"
+            android:contentDescription="Kural detay fotoğrafı"
+            android:elevation="4dp" />
+
+    </LinearLayout>
+
+</ScrollView>

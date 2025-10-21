@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/card_margin_horizontal"
+    android:layout_marginEnd="@dimen/card_margin_horizontal"
+    android:layout_marginTop="@dimen/card_margin_vertical"
+    android:layout_marginBottom="@dimen/card_margin_vertical"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/card_padding"
+        android:gravity="center_vertical">
+
+        <!-- Modern Icon Container -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            app:cardCornerRadius="@dimen/icon_corner_radius"
+            app:cardElevation="@dimen/icon_elevation"
+            app:cardBackgroundColor="@color/primary"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/textViewEmoji"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="❓"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:contentDescription="@string/cd_info_icon" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Content Container -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.App.Title"
+                android:textSize="@dimen/text_size_title"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:shadowColor="@color/actionbar_shadow"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"
+                tools:text="Gösterge var mı?" />
+
+            <TextView
+                android:id="@+id/textViewAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textAppearance="@style/TextAppearance.App.Body"
+                android:textSize="@dimen/text_size_body"
+                android:textColor="@color/text_secondary"
+                android:lineSpacingExtra="4dp"
+                tools:text="• Hayır, 101 oyununda göstergenin herhangi bir fonksiyonu yoktur.\n• Gösterge sadece okey belirlemek için kullanılır.\n• Oyun sırasında gösterge ile ilgili özel kurallar yoktur.\n• Gösterge sadece okey taşını belirlemek için açılır." />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    
+    <!-- Modern Target Background -->
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M14,2c6.6,0 12,5.4 12,12s-5.4,12 -12,12s-12,-5.4 -12,-12S7.4,2 14,2z" />
+    
+    <!-- Inner Circle -->
+    <path
+        android:fillColor="#673AB7"
+        android:pathData="M14,4c5.5,0 10,4.5 10,10s-4.5,10 -10,10s-10,-4.5 -10,-10S8.5,4 14,4z" />
+    
+    <!-- Target Rings -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,6c4.4,0 8,3.6 8,8s-3.6,8 -8,8s-8,-3.6 -8,-8S9.6,6 14,6z"
+        android:strokeWidth="1"
+        android:strokeColor="#9C27B0" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,9c2.8,0 5,2.2 5,5s-2.2,5 -5,5s-5,-2.2 -5,-5S11.2,9 14,9z"
+        android:strokeWidth="1"
+        android:strokeColor="#9C27B0" />
+    
+    <!-- Center Bullseye -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M14,12c1.1,0 2,0.9 2,2s-0.9,2 -2,2s-2,-0.9 -2,-2S12.9,12 14,12z" />
+    
+    <!-- Modern Glow Effect -->
+    <path
+        android:fillColor="#809C27B0"
+        android:pathData="M14,0c7.7,0 14,6.3 14,14s-6.3,14 -14,14s-14,-6.3 -14,-14S6.3,0 14,0z" />
+</vector>

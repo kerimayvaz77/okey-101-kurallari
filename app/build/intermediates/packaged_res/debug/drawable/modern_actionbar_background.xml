@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Smooth Glass Effect Background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#30667eea"
+                android:centerColor="#30764ba2"
+                android:endColor="#30f093fb"
+                android:type="linear" />
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+    
+    <!-- Enhanced Inner Glow -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#20FFFFFF"
+                android:endColor="#00000000"
+                android:type="linear" />
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+    
+    <!-- Refined Bottom Border -->
+    <item android:top="-1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#50FFFFFF" />
+            <size android:height="1dp" />
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+    
+</layer-list>

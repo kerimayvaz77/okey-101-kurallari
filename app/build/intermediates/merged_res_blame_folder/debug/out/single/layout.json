@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/fragment_general_info.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/fragment_general_info.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/item_faq.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/item_faq.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/fragment_burak.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/fragment_burak.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/fragment_faq.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/fragment_faq.xml"
+    },
+    {
+        "merged": "com.example.okey101rules.app-mergeDebugResources-53:/layout/activity_main.xml",
+        "source": "com.example.okey101rules.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/item_search_result.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/item_search_result.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/fragment_home.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/fragment_rule_detail.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/fragment_rule_detail.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/activity_main.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/dialog_strategy_detail.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/dialog_strategy_detail.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/item_strategy.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/item_strategy.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/fragment_search_results.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/fragment_search_results.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/fragment_category_detail.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/fragment_category_detail.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/custom_actionbar.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/custom_actionbar.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/fragment_strategy.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/fragment_strategy.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/item_category.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/item_category.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/empty_state.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/empty_state.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/item_rule_title.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/item_rule_title.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/dialog_info_popup.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/dialog_info_popup.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/item_info_card.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/item_info_card.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/dialog_faq_detail.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/dialog_faq_detail.xml"
+    },
+    {
+        "merged": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-mergeDebugResources-53:/layout/dialog_info_detail.xml",
+        "source": "/Users/kerimayvaz/.gradle/daemon/8.14/com.example.okey101rules.app-main-56:/layout/dialog_info_detail.xml"
+    }
+]

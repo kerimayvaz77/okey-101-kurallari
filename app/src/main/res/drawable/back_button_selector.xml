@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <gradient
+                        android:startColor="@color/modern_back_button_gradient_pressed_start"
+                        android:endColor="@color/modern_back_button_gradient_pressed_end"
+                        android:angle="135"
+                        android:type="linear" />
+                    <size android:width="40dp" android:height="40dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_arrow_back_modern" 
+                  android:gravity="center" />
+        </layer-list>
+    </item>
+    
+    <!-- Focused state -->
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <gradient
+                        android:startColor="@color/modern_back_button_gradient_start"
+                        android:endColor="@color/modern_back_button_gradient_end"
+                        android:angle="135"
+                        android:type="linear" />
+                    <size android:width="40dp" android:height="40dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_arrow_back_modern" 
+                  android:gravity="center" />
+        </layer-list>
+    </item>
+    
+    <!-- Default state -->
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <gradient
+                        android:startColor="@color/modern_back_button_gradient_start"
+                        android:endColor="@color/modern_back_button_gradient_end"
+                        android:angle="135"
+                        android:type="linear" />
+                    <size android:width="40dp" android:height="40dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_arrow_back_modern" 
+                  android:gravity="center" />
+        </layer-list>
+    </item>
+    
+</selector>

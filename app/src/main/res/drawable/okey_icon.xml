@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+    
+    <!-- Okey Stone -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30h48v48h-48z" />
+    
+    <!-- Stone Pattern -->
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M36,36h36v36h-36z" />
+    
+    <!-- Center Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,48h12v12h-12z" />
+    
+    <!-- Corner Decorations -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30h6v6h-6z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,30h6v6h-6z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,72h6v6h-6z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,72h6v6h-6z" />
+</vector>

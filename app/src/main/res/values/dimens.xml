@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card Dimensions -->
+    <dimen name="card_margin_horizontal">16dp</dimen>
+    <dimen name="card_margin_vertical">12dp</dimen>
+    <dimen name="card_padding">24dp</dimen>
+    <dimen name="card_corner_radius">24dp</dimen>
+    <dimen name="card_elevation">16dp</dimen>
+    
+    <!-- Icon Dimensions -->
+    <dimen name="icon_size">72dp</dimen>
+    <dimen name="icon_corner_radius">20dp</dimen>
+    <dimen name="icon_elevation">12dp</dimen>
+    
+    <!-- Text Dimensions -->
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_subtitle">12sp</dimen>
+    
+    <!-- Fragment Padding -->
+    <dimen name="fragment_padding">16dp</dimen>
+    
+    <!-- Bottom Navigation -->
+    <dimen name="bottom_nav_elevation">16dp</dimen>
+    <dimen name="bottom_nav_icon_size">28dp</dimen>
+    
+    <!-- Search Container -->
+    <dimen name="search_container_margin_bottom">20dp</dimen>
+    <dimen name="search_container_padding">16dp</dimen>
+    <dimen name="search_container_corner_radius">16dp</dimen>
+    <dimen name="search_container_elevation">4dp</dimen>
+    
+    <!-- Header Dimensions -->
+    <dimen name="header_margin_bottom">24dp</dimen>
+    <dimen name="header_padding">18dp</dimen>
+    <dimen name="header_corner_radius">24dp</dimen>
+    <dimen name="header_elevation">12dp</dimen>
+</resources>

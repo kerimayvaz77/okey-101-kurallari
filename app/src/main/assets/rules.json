@@ -1,0 +1,478 @@
+[
+  {
+    "category": "Genel Kurallar",
+    "subCategory": "Oyunun Amacı",
+    "title": "101 - Oyunun Amacı ve Oyuncu Sayısı",
+    "description": "Okey 101, dört oyuncu ile birden fazla turda oynanır. Amaç, oyunu mümkün olan en az ceza puanı ile bitirmektir. Turlar sonunda en az puana sahip olan oyuncu kazanır.",
+    "keywords": "amaç, kazanma, oyuncu sayısı, 4 kişi, en az puan, tur"
+  },
+  {
+    "category": "Genel Kurallar",
+    "subCategory": "Taş Seti",
+    "title": "102 - Taş Seti",
+    "description": "Oyun, 106 taştan oluşur. Taşlar 4 renkte (kırmızı, sarı, mavi, siyah) 1'den 13'e kadar numaralandırılmıştır. Her sayıdan her renkte ikişer adet bulunur. Ayrıca numarasız iki adet sahte okey taşı vardır.",
+    "keywords": "taş sayısı, 106, okey takımı, ıstaka, renkler, 4 renk, 1-13"
+  },
+  {
+    "category": "Genel Kurallar",
+    "subCategory": "Oyun Yönü",
+    "title": "103 - Oyun Yönü",
+    "description": "Oyun saat yönünün tersine doğru ilerler.",
+    "keywords": "oyun yönü, saat yönü tersi, sıra, saat yönünün tersi"
+  },
+  {
+    "category": "Genel Kurallar",
+    "subCategory": "Sıra Tamamlama",
+    "title": "104 - Sıra Tamamlama",
+    "description": "Sırası gelen oyuncu, elini açsa bile sırasını mutlaka masaya bir taş atarak tamamlamak zorundadır.",
+    "keywords": "sıra, taş atma, bitiş taşı, zorunluluk"
+  },
+  {
+    "category": "Genel Kurallar",
+    "subCategory": "Oyunun Sonu",
+    "title": "105 - Oyunun Sonu",
+    "description": "Oyun, desteden çekecek taş kalmadığında veya bir oyuncu elini bitirdiğinde sona erer. Oyun genellikle 3, 5, 7, 9 veya 11 gibi önceden belirlenmiş sayıda turdan oluşur.",
+    "keywords": "oyun sonu, tur sayısı, bitiş, deste bitme, 3 tur, 5 tur, 7 tur, 9 tur, 11 tur"
+  },
+  {
+    "category": "Oyuna Başlarken",
+    "subCategory": "Oturma Düzeni",
+    "title": "201 - Oturma Düzeni Belirleme",
+    "description": "Oyuncular anlaşamazsa, zar atılır. Büyük zar atan ilk oturur ve istediği yöne yerleşir. Büyük zardan küçüğe doğru saat yönünün tersine oyuncular oturur. Oyun bitmeden oyuncular oturma yerlerini değiştiremez.",
+    "keywords": "oturma düzeni, zar atma, sıralama, yerleşme"
+  },
+  {
+    "category": "Oyuna Başlarken",
+    "subCategory": "Taş Dağıtımı",
+    "title": "202 - Taş Dağıtım Prosedürü",
+    "description": "İlk partide taşları puan/ceza cetvelini tutan oyuncunun sağındaki oyuncu dağıtır. Devam eden partilerde sıra bir sonraki oyuncuya geçer. Dağıtıcı her oyuncuya 21 taş dağıtır. Oyuna ilk başlayacak oyuncuya (dağıtıcının sağındaki) 22 taş verilir.",
+    "keywords": "taş dağıtma, 21 taş, 22 taş, dağıtıcı, balya"
+  },
+  {
+    "category": "Oyuna Başlarken",
+    "subCategory": "Taş Dağıtımı",
+    "title": "203 - Gösterge Taşı Açma",
+    "description": "Tek zar atılarak, gelen zarın olduğu 7'li balyanın en alt kısmında bulunan taş açık vaziyette bir sonraki balyaya eklenerek taşlar dağıtılır. Yerde kalan üç balyadan, taş dağıtan oyuncunun en solundaki balyanın en üstünde bulunan taş açılır (gösterge taşı).",
+    "keywords": "gösterge açma, zar atma, balya, 7'li balya"
+  },
+  {
+    "category": "Oyuna Başlarken",
+    "subCategory": "Okey Belirleme",
+    "title": "204 - Okey (Joker) Belirleme",
+    "description": "Gösterge taşının bir büyüğü gerçek okey taşı olarak belirlenir. Gösterge taşı 13 ise, okey 1 olarak belirlenir. Gerçek okey taşları (2 adet) gösterge taşının aynı renkten bir üst sayısıdır. Örnek: Gösterge taşı kırmızı 7 ise, gerçek okeyler iki kırmızı 8 taşıdır.",
+    "keywords": "okey belirleme, joker, gösterge, bir üst, gerçek okey"
+  },
+  {
+    "category": "Oyuna Başlarken",
+    "subCategory": "Sahte Okey",
+    "title": "205 - Sahte Okey Belirleme",
+    "description": "Sahte joker taşları gösterge taşının değerini alır. Sahte okey gelmesi durumunda bir alttaki taş okey olarak çevrilir. Numarasız iki özel taş 'sahte okey' olarak adlandırılır ve gerçek okeyin yerine geçer.",
+    "keywords": "sahte okey, sahte joker, gösterge değeri"
+  },
+  {
+    "category": "Oyuna Başlarken",
+    "subCategory": "Oyuna Başlama",
+    "title": "206 - İlk Hamle",
+    "description": "İlk oyuncu (22 taşı olan) taş çekmeden bir taş atar. Oyuna taşları dağıtan oyuncunun sağındaki oyuncu başlar.",
+    "keywords": "ilk hamle, başlama, 22 taş, fazla taş atma"
+  },
+  {
+    "category": "Oyuna Başlarken",
+    "subCategory": "Sıra ve Taş Çekme",
+    "title": "207 - Oyun Sırası",
+    "description": "Oyun saat yönünün tersine oynanır. Sırası gelen oyuncu ya desteden (yerde kalan taşlardan) bir taş çeker ya da bir önceki oyuncunun attığı son taşı alır. Oyuncu taş çektikten sonra mutlaka bir taş atarak sırasını tamamlar.",
+    "keywords": "sıra, taş çekme, desteden çekme, yandan alma"
+  },
+  {
+    "category": "Gösterge ve Okey",
+    "subCategory": "Gösterge Fonksiyonu",
+    "title": "301 - Gösterge Taşının Fonksiyonu",
+    "description": "101 oyununda gösterge fonksiyonu YOKTUR. Gösterge sadece okey belirleme için kullanılır. Gösterge taşı çift olarak kullanılamaz. Oyunda gösterge taşına sahip olmanın bir puan avantajı yoktur.",
+    "keywords": "gösterge, fonksiyon yok, sadece belirleme, çift olmaz"
+  },
+  {
+    "category": "Gösterge ve Okey",
+    "subCategory": "Gerçek Okey",
+    "title": "302 - Gerçek Okey Taşları",
+    "description": "Gösterge taşının bir üstü olan iki taş 'gerçek okey'dir. Gerçek okey her taşın yerine kullanılabilir.",
+    "keywords": "gerçek okey, joker, yerine kullanma, 2 adet"
+  },
+  {
+    "category": "Gösterge ve Okey",
+    "subCategory": "Sahte Okey",
+    "title": "303 - Sahte Okey Taşları",
+    "description": "Numarasız iki özel taş 'sahte okey' olarak adlandırılır ve gerçek okeyin yerine geçer. Sahte okey de her taşın yerine kullanılabilir.",
+    "keywords": "sahte okey, numarasız taş, joker, yerine kullanma"
+  },
+  {
+    "category": "El Açma ve Perler",
+    "subCategory": "El Açma Şartı",
+    "title": "401 - 101 Baraj Sayısı",
+    "description": "El açmak için perlerin (setlerin) toplam değerinin en az 101 olması gerekir. 101'i tutmayan açış geçersizdir ve 101 ceza puanı verilir.",
+    "keywords": "el açma, 101, baraj, minimum sayı, geçerlilik"
+  },
+  {
+    "category": "El Açma ve Perler",
+    "subCategory": "Seri Perler",
+    "title": "402 - Seri Perler (Sıralı Kombinasyonlar)",
+    "description": "Aynı renkte ardışık 3 veya daha fazla taştan oluşur. Örnek: Mavi 1-2-3 veya Kırmızı 7-8-9-10. ÖNEMLİ: 12-13-1 şeklinde per YAPILMAZ (geçerli değildir). Farklı renklerdeki ardışık sayılar per oluşturmaz.",
+    "keywords": "seri per, aynı renk, ardışık, sıralı, 3 taş minimum"
+  },
+  {
+    "category": "El Açma ve Perler",
+    "subCategory": "Rakam Perleri",
+    "title": "403 - Rakam Perleri (Setler)",
+    "description": "Aynı sayıya sahip fakat farklı renkte 3 veya 4 taştan oluşur. Örnek: Siyah 12, Kırmızı 12, Sarı 12. Aynı renkte iki taş kullanılamaz (örn: İki kırmızı 12 ve bir siyah 12 geçersizdir). En az 3, en fazla 4 taş olmalıdır.",
+    "keywords": "rakam peri, set, aynı sayı, farklı renk, 3-4 taş"
+  },
+  {
+    "category": "El Açma ve Perler",
+    "subCategory": "Minimum Taş Sayısı",
+    "title": "404 - Minimum Per Taş Sayısı",
+    "description": "Bir per en az 3 taştan oluşmalıdır. Bir sette maksimum 4 taş olabilir. El açılırken minimum taş sayısı her perde en az 3 taş olmalıdır.",
+    "keywords": "minimum taş, 3 taş, maksimum 4 taş"
+  },
+  {
+    "category": "El Açma ve Perler",
+    "subCategory": "Geçersiz Perler",
+    "title": "405 - Geçersiz Per Kombinasyonları",
+    "description": "Aynı sayı ve aynı renkten per olmaz (örn: mavi 10, kırmızı 10, mavi 10). 13'ten sonra 1 gelerek seri oluşturulamaz (örn: siyah 13, siyah 1, siyah 2). 12-13-1 gibi geçersiz per açarsanız 101 ceza alırsınız.",
+    "keywords": "geçersiz per, aynı renk yasak, 12-13-1 olmaz, seri kuralları"
+  },
+  {
+    "category": "El Açma ve Perler",
+    "subCategory": "Yandan Taş Alma",
+    "title": "406 - Yandan Taş Alma Kuralları",
+    "description": "Yandan taş aldığınızda el açmak ZORUNDASINIZ. Yandan aldığınız taşı el açarken KULLANMAK ZORUNDASINIZ. Elinizde bu taşın bir eşi varsa el açarken onu da kullanabilirsiniz. Taş almadan önce el hesaplaması yapılması zorunludur. El açamayacaksanız o taşı alamazsınız.",
+    "keywords": "yandan alma, zorunlu açma, taş kullanma, eş kullanma"
+  },
+  {
+    "category": "Çiftler",
+    "subCategory": "Çift Açma",
+    "title": "501 - Çift ile El Açma",
+    "description": "El açmanın bir diğer yolu minimum 5 çift taş biriktirmektir. Çift, aynı sayı ve renkteki iki taştan oluşur. 101 oyununda minimum 5 çift gerekir.",
+    "keywords": "çift açma, 5 çift, minimum, aynı renk aynı sayı"
+  },
+  {
+    "category": "Çiftler",
+    "subCategory": "Çift Açanın Kısıtlamaları",
+    "title": "502 - Çift Açanın Kuralları",
+    "description": "Çift açan bir oyuncu o turda bir daha normal per AÇAMAZ. Ancak diğer oyuncuların açtığı perlere taş işleyebilir. Bir oyuncu hem çift hem de seri AÇAMAZ. Çift açan biri seriye işler yapabilir ancak bir seferde en fazla 2 taş işleyebilir.",
+    "keywords": "çift açma kısıtlama, seri açamaz, işleme yapabilir, maksimum 2 taş"
+  },
+  {
+    "category": "Çiftler",
+    "subCategory": "Tur İptali",
+    "title": "503 - Tüm Oyuncular Çift Açarsa",
+    "description": "Eğer masadaki dört oyuncu da aynı turda çift açarsa, o tur iptal olur ve yeniden başlanır. Kimse ceza puanı almaz. El sayılmaz, yeniden oynanır.",
+    "keywords": "tur iptali, çift açma, yeniden başlama, iptal, 4 oyuncu çift"
+  },
+  {
+    "category": "Çiftler",
+    "subCategory": "Çiftten Yandan Alma",
+    "title": "504 - Çifte Giden Oyuncunun Yandan Alma Hakkı",
+    "description": "Çifte giden biri, el açmasa bile çift diyerek yandan taş ALABİLİR. Ancak çift açmamışsa yandan taş ALAMAZ. Çifte giden birisinin attığı taş alınıp el açılabilir.",
+    "keywords": "çift, yandan alma, el açmadan alma, çift deme"
+  },
+  {
+    "category": "İşleme Kuralları",
+    "subCategory": "Genel İşleme",
+    "title": "601 - İşleme Yapma Kuralları",
+    "description": "El açtıktan sonra işleme yapmak serbesttir. Bir oyuncu elini 101 ile açtıktan sonra, yerdeki diğer oyuncuların açtığı perlere uygun taşları ekleyebilir (işleyebilir). Seri açan oyuncu masadaki açık serilere taş işleyebilir.",
+    "keywords": "işleme, taş ekleme, el açtıktan sonra, perlere ekleme"
+  },
+  {
+    "category": "İşleme Kuralları",
+    "subCategory": "Çift Açanın İşlemesi",
+    "title": "602 - Çift Açanın İşleme Kısıtlamaları",
+    "description": "Çift açan oyuncu hem serilere hem çiftlere işleyebilir ancak bir seferde en fazla 2 taş işleyebilir. Oyunda çift açan biri varsa, diğer oyuncular ellerindeki çiftleri çift açana işleyebilir. Çift açan biri yoksa çift işlenemez.",
+    "keywords": "çift açan işleme, maksimum 2 taş, serilere işleme, çiftlere işleme"
+  },
+  {
+    "category": "İşleme Kuralları",
+    "subCategory": "Okey İşleme",
+    "title": "603 - Okey Taşı İşleme ve Alma",
+    "description": "Yere okey kullanılarak per veya çift açılmışsa, elinde okeye karşılık gelen taşı olan oyuncu okeyi alabilir. Okeyi alabilmek için önce elinizi açmış olmanız gerekir. Yerdeki okeyi açma sayınız (101) tutmuyorsa alamazsınız. 101'i tamamlamışsanız önce el yere açılır, sonra okey alınır.",
+    "keywords": "okey alma, karşılık taş, el açma şartı, işleme"
+  },
+  {
+    "category": "İşleme Kuralları",
+    "subCategory": "Yere Açılan Perler",
+    "title": "604 - Yere Açılan Perlerin Değiştirilmesi",
+    "description": "Yere açılan perler açıldıktan sonra değiştirilemez. Mevcut hali 101 bulmazsa ceza puanı aldıktan sonra yerde düzeltme yapılabilir. Son işlediğiniz taşı alma veya yerini değiştirme hakkınız vardır. İşlediğiniz taşları geri alırsanız 101 ceza puanı alırsınız.",
+    "keywords": "per değiştirme, geri alma, son taş, düzeltme"
+  },
+  {
+    "category": "Oyunu Bitirme",
+    "subCategory": "Normal Bitme",
+    "title": "701 - Normal Bitme Kuralları",
+    "description": "Elinizde 1 taş kaldığında bu taşı göstergenin üzerine bırakarak veya yana kapalı olarak atarak oyunu bitirebilirsiniz. Elinizde taş kalmamışsa oyun bitmez. Oyunu bitirebilmek için bir bitiş taşı gereklidir. Son 3 taşı yere açtıysanız oyunu bitiremezsiniz.",
+    "keywords": "normal bitme, son taş, bitiş taşı, 1 taş kalma"
+  },
+  {
+    "category": "Oyunu Bitirme",
+    "subCategory": "Elden Bitme",
+    "title": "702 - Elden Bitme (800 Atma)",
+    "description": "Diğer oyuncular el açmadan elinizi açar ve aynı elde biterseniz elden bitmiş olursunuz. Elden biten oyuncu sayısı tutmasa bile açıp bitebilir. Tek açışta bütün taşlarını açıp oyun bitirebilir (işleme yapmaksızın). Elden bitilmişse cezalar 2 katına çıkar.",
+    "keywords": "elden bitme, 800 atma, tek açış, ceza katlama, 2 kat"
+  },
+  {
+    "category": "Oyunu Bitirme",
+    "subCategory": "Çiftten Bitme",
+    "title": "703 - Çiftten Bitme",
+    "description": "Çift açan oyuncunun çiftten bitmesi durumunda cezalar 2 katına çıkar. 101 oyununda çift açan bir oyuncunun bir seriye işler yapmadan bitmesi mümkün değildir (21 taş olduğundan 1 taşın seriye işlenmesi gerekir).",
+    "keywords": "çiftten bitme, 2 kat ceza, seri işleme zorunlu"
+  },
+  {
+    "category": "Oyunu Bitirme",
+    "subCategory": "Okey Atma",
+    "title": "704 - Okey Atarak Bitme",
+    "description": "Elinizde kalan son taş okeyse bu taşı kullanarak oyunu bitirebilirsiniz. Okey atıldığında diğer oyuncular 2 kat ceza alır. Elden okey atılmışsa cezalar 4 katına çıkar. Çift açan oyuncu okey atmışsa cezalar 4 katına çıkar.",
+    "keywords": "okey atma, son taş okey, 2 kat ceza, 4 kat ceza, elden okey"
+  },
+  {
+    "category": "Oyunu Bitirme",
+    "subCategory": "Devam Atma",
+    "title": "705 - Devam Atma (Okey İkiye)",
+    "description": "Çok zayıf bir ihtimalle devam atma gerçekleşebilir. Devam atılmışsa cezalar 4 katına çıkar. Elden devam atılmışsa (çift okey) cezalar 8 katına çıkar. Bu durum çok nadir görülür.",
+    "keywords": "devam atma, okey ikiye, çift okey, 4 kat, 8 kat ceza"
+  },
+  {
+    "category": "Oyunu Bitirme",
+    "subCategory": "Oyun Bitişi",
+    "title": "706 - El Sonu ve Oyun Bitişi",
+    "description": "Yerdeki taşların bitmesi ile veya bir oyuncunun elindeki taşların bitmesi ile o el sona erer. El sona erdiğinde her oyuncunun elindeki taşların toplamı kadar ceza yazılır. Oyun bittiğinde tüm oyuncular ıstakalarındaki taşları rakip oyunculara ve ceza tabelasını tutan oyuncuya göstererek sayım yapılır.",
+    "keywords": "el sonu, oyun bitişi, taş sayımı, deste bitme"
+  },
+  {
+    "category": "Puanlama ve Cezalar",
+    "subCategory": "Temel Puanlama",
+    "title": "801 - Temel Puanlama Sistemi",
+    "description": "Puanlar elde kalan taşların üzerindeki sayılara göre belirlenir (örn: Kırmızı 3 = 3 puan, Siyah 11 = 11 puan). En az ceza puanı toplayan oyuncu kazanır. Açmayan oyuncu ıstakasındaki taşlara bakılmaksızın 202 ceza puanı alır. Açan oyuncularda eldeki taşlar toplanır.",
+    "keywords": "puanlama, taş değeri, ceza, en az puan, kazanma"
+  },
+  {
+    "category": "Puanlama ve Cezalar",
+    "subCategory": "Normal Bitme Puanları",
+    "title": "802 - Normal Bitme Puanlaması",
+    "description": "Elini bitiren oyuncu -101 puan alır (ceza puanından eksi 101 puan silinir). Diğer oyunculardan elini açmış olanlar ıstakalarında kalan taşların sayı değeri kadar ceza puanı alır. Elini hiç açmamış olanlar ise 202 ceza puanı alır.",
+    "keywords": "normal bitiş, -101, 202 ceza, eksi puan, kalan taşlar"
+  },
+  {
+    "category": "Puanlama ve Cezalar",
+    "subCategory": "Okey Atma Puanları",
+    "title": "803 - Okey Atma Puanlaması",
+    "description": "Elini bitirirken son taş olarak okey atan oyuncu -202 puan alır. Diğer oyunculardan elini açmış olanların cezası ikiye katlanır. Elini hiç açmamış olanlar ise 404 ceza puanı alır.",
+    "keywords": "okey atma, -202, 404 ceza, ceza katlama, 2 kat"
+  },
+  {
+    "category": "Puanlama ve Cezalar",
+    "subCategory": "Çiftten Bitme Puanları",
+    "title": "804 - Çiftten Bitme Puanlaması",
+    "description": "Çiftten biten oyuncu -202 puan alır (ceza puanından eksi 202 puan silinir). Diğer oyuncuların ceza puanları ikiye katlanır.",
+    "keywords": "çiftten bitme, -202, 2 kat ceza, çift açma"
+  },
+  {
+    "category": "Puanlama ve Cezalar",
+    "subCategory": "Elden Bitme Puanları",
+    "title": "805 - Elden Bitme Puanlaması",
+    "description": "Diğer oyuncular hiç el açmadan bir oyuncu elini açıp aynı anda bitirirse 'elden bitmiş' olur. Biten oyuncu -202 puan alır. Diğer oyuncular 808 ceza puanı alır. Eğer elden biten okey atarsa, biten -808 puan alır, diğerleri 808 ceza puanı alır.",
+    "keywords": "elden bitme, -202, 808 ceza, -808, elden okey"
+  },
+  {
+    "category": "Puanlama ve Cezalar",
+    "subCategory": "Devam Atma Puanları",
+    "title": "806 - Devam Atma Puanlaması",
+    "description": "Devam atılmışsa (okey ikiye) cezalar 4 katına çıkar. Devam atan oyuncu -404 puan alır. Elden devam atılmışsa (çift okey) cezalar 8 katına çıkar ve devam atan -808 puan alır.",
+    "keywords": "devam atma, -404, -808, 4 kat, 8 kat, okey ikiye"
+  },
+  {
+    "category": "Puanlama ve Cezalar",
+    "subCategory": "Katlama Tablosu",
+    "title": "807 - Ceza Katlama Tablosu",
+    "description": "KATLAMA TABLOSU:\n\n• Normal Bitme: 1x katsayı, Bitene -101 indirim\n• Okey Atma: 2x katsayı, Bitene -202 indirim\n• Çift Açma: 2x katsayı, Bitene -202 indirim\n• Devam Atma: 4x katsayı, Bitene -404 indirim\n• Elden Bitme: 2x katsayı, Bitene -202 indirim\n• Elden Okey: 4x katsayı, Bitene -404 indirim\n• Elden Devam: 8x katsayı, Bitene -808 indirim\n• Çift + Okey: 4x katsayı, Bitene -404 indirim",
+    "keywords": "katlama, tablo, katsayı, 1x, 2x, 4x, 8x, indirim"
+  },
+  {
+    "category": "Puanlama ve Cezalar",
+    "subCategory": "Okey Cezası",
+    "title": "808 - Elde Okey Kalması Cezası",
+    "description": "Elinde okey kalan oyuncuya normal cezasının üzerine 101 puan ceza daha yazılır. Tur bittiğinde bir oyuncunun elinde okey kalmışsa, normal ceza puanına ek olarak 101 puan daha ceza alır.",
+    "keywords": "elde okey kalma, ek ceza, 101, okey cezası"
+  },
+  {
+    "category": "Puanlama ve Cezalar",
+    "subCategory": "Destede Taş Kalmaması",
+    "title": "809 - Destede Taş Kalmadığında",
+    "description": "Destede çekecek taş kalmazsa ve kimse bitmemişse, herkesin elindeki taşların sayı değeri ceza olarak yazılır. Elini açmamış olanlar 202 ceza puanı alır.",
+    "keywords": "deste bitme, taş kalmaması, ceza yazma, 202"
+  },
+  {
+    "category": "Puanlama ve Cezalar",
+    "subCategory": "Oyun Galibi",
+    "title": "810 - Oyun Kazanma",
+    "description": "Belirlenen tur sayısı bittiğinde toplamda en az ceza puanı olan oyuncu oyunu kazanır.",
+    "keywords": "oyun galibi, kazanma, en az ceza, toplam puan"
+  },
+  {
+    "category": "101 Ceza Kuralları",
+    "subCategory": "Erken Açma",
+    "title": "901 - 101 Sayısına Ulaşmadan Açma",
+    "description": "Bir oyuncu 101 sayısına ulaşmadan elini açarsa (el açma hatası), açtığı taşları geri alır ve 101 ceza puanı alır. Açtıklarınız geçerli değilse 101 ceza alırsınız.",
+    "keywords": "erken açma, 101 ceza, el açma hatası, yetersiz sayı"
+  },
+  {
+    "category": "101 Ceza Kuralları",
+    "subCategory": "İşlek Taş",
+    "title": "902 - İşlek Taş Atma",
+    "description": "Atılan taş yerdeki bir seriye işlerse bu taşı atan oyuncu 101 ceza puanı alır. Okey her zaman işler olacağı için yanlışlıkla okeyi atan oyuncu ceza alır. İşlek taşın cezalı olabilmesi için rakip oyuncunun 'işlek' demesi ve işlek taşın rakamını ve rengini atan oyuncudan önce fark etmesi gerekir. Yere atılan işlek taş diğer oyuncu tarafından alınabilir.",
+    "keywords": "işlek taş, 101 ceza, yere atılan taş, okey işler"
+  },
+  {
+    "category": "101 Ceza Kuralları",
+    "subCategory": "Yere Okey Atma",
+    "title": "903 - Yanlış Okey Atma",
+    "description": "Yere okey taşı atmak (bitiş durumu hariç) yasaktır. Yere hiç per açılmamışken okey atan oyuncu 101 ceza puanı alır. Yanlışlıkla okey atılırsa (yere taş açılmamış olsa bile) 101 ceza puanı verilir.",
+    "keywords": "yere okey atma, 101 ceza, yasak, yanlış okey"
+  },
+  {
+    "category": "101 Ceza Kuralları",
+    "subCategory": "Taş Geri Alma",
+    "title": "904 - Açılan Setten Taş Geri Alma",
+    "description": "Oyuncu masaya açtığı setlere birden fazla taş ekleyip sonra geri alırsa 101 ceza puanı alır. Sadece son eklediği taşı geri alabilir. İşleme hatası: Birden fazla taş işleyip geri alırsanız 101 ceza alırsınız.",
+    "keywords": "taş geri alma, 101 ceza, işleme hatası, set değiştirme"
+  },
+  {
+    "category": "101 Ceza Kuralları",
+    "subCategory": "Yandan Alma Hatası",
+    "title": "905 - Yandan Alınan Taşı Geri Bırakma",
+    "description": "Yandan alınan taşla el açılamayıp taş geri bırakılırsa, oyuncu 101 ceza puanı alır. Yandan taş alma hatası: Yandan taş alıp el açamayıp geri bırakırsanız 101 ceza alırsınız.",
+    "keywords": "yandan alma, geri bırakma, 101 ceza, açamama"
+  },
+  {
+    "category": "101 Ceza Kuralları",
+    "subCategory": "Yanlış Per",
+    "title": "906 - Yanlış Per Açma",
+    "description": "12-13-1 gibi geçersiz per açarsanız 101 ceza puanı alırsınız. Geçersiz kombinasyonlar için 101 ceza uygulanır.",
+    "keywords": "yanlış per, 12-13-1, geçersiz per, 101 ceza"
+  },
+  {
+    "category": "101 Ceza Kuralları",
+    "subCategory": "Yerden Alıp Açmama",
+    "title": "907 - Yerden Taş Alıp El Açmama",
+    "description": "Yerden taş alıp el açmazsanız 101 ceza puanı alırsınız. Yandan taş aldıktan sonra el açma zorunluluğu vardır.",
+    "keywords": "yerden alma, açmama, 101 ceza, zorunluluk"
+  },
+  {
+    "category": "101 Ceza Kuralları",
+    "subCategory": "İşlerken Atma",
+    "title": "908 - Yere Taş İşlerken Atma",
+    "description": "İşleme yaparken taş atarsanız 101 ceza puanı alırsınız (sadece son taş atarken ceza yok). İşleme sırasında hatalı taş atma cezalandırılır.",
+    "keywords": "işlerken atma, taş atma hatası, 101 ceza"
+  },
+  {
+    "category": "101 Ceza Kuralları",
+    "subCategory": "Okey Alıp Açmama",
+    "title": "909 - Okey Taşını Alıp El Açmama",
+    "description": "Okey taşını alıp el açmazsanız 101 ceza puanı alırsınız. Okey alma işleminden sonra el açma zorunludur.",
+    "keywords": "okey alma, açmama, 101 ceza"
+  },
+  {
+    "category": "101 Ceza Kuralları",
+    "subCategory": "Geri Toplama",
+    "title": "910 - Yetersiz Perleri Geri Toplama",
+    "description": "Açma sayısı yetersiz perleri yere açıp geri toplarsanız 101 ceza puanı alırsınız (ama taşlar geri alınır). El açma denemesi başarısız olursa ceza uygulanır.",
+    "keywords": "geri toplama, yetersiz per, 101 ceza, başarısız açma"
+  },
+  {
+    "category": "Özel Durumlar",
+    "subCategory": "Taş Atma",
+    "title": "1001 - Taş Atma ve Görüntüleme",
+    "description": "Yana atılan taşlar bir bir üzerine önceki atılan taşlar görünmeyecek şekilde atılır. Seri açan oyuncu kendi attığı taşlara taşını attıktan sonra bakabilir. Taş atmadan önce kendi attığı taşlara bakamaz.",
+    "keywords": "taş atma, görüntüleme, yana atma, geçmiş taşlar"
+  },
+  {
+    "category": "Özel Durumlar",
+    "subCategory": "Çift Açanın Hakkı",
+    "title": "1002 - Çift Açanın Yere Atılan Taşlara Bakması",
+    "description": "Çift açan oyuncu yere atılan taşları dilerse açtırabilir. El açmayan veya seriye el açan oyuncu yere atılan taşlara bakamaz.",
+    "keywords": "çift açan, yere atılan taşlar, bakma hakkı, açtırma"
+  },
+  {
+    "category": "Özel Durumlar",
+    "subCategory": "Takım İletişimi",
+    "title": "1003 - Eşli Turnuva İletişimi",
+    "description": "Takım oyuncuları eşleriyle konuşmamak şartıyla işaretle anlaşma yapabilirler. Anlaşmazlık durumunda tertip komisyonundan bir üye masaya çağrılır.",
+    "keywords": "takım iletişimi, eşli turnuva, işaret, konuşma yasağı"
+  },
+  {
+    "category": "Özel Durumlar",
+    "subCategory": "Eş Bitirme",
+    "title": "1004 - Eşlerden Biri Biterse",
+    "description": "Eşlerden biri biterse diğer eşin cezası silinir. Bu kural eşli turnuvalarda geçerlidir.",
+    "keywords": "eş bitirme, ceza silme, eşli turnuva, takım"
+  },
+  {
+    "category": "Özel Durumlar",
+    "subCategory": "Eşli Turnuva",
+    "title": "1005 - Eşli Turnuva Kuralları",
+    "description": "Takımlar toplamda 11 el üzerinden üç maç yaparlar. Üç oyundan iki oyun alan takım galip sayılır. İlk iki sırayı alan takımlar bir üst tura çıkar. Üst turlarda eleme usulü üç oyun üzerinden oynanır.",
+    "keywords": "eşli turnuva, 11 el, 3 maç, eleme, takım oyunu"
+  },
+  {
+    "category": "Özel Durumlar",
+    "subCategory": "Sayı Tutmadan Bitme",
+    "title": "1006 - Sayı Tutmasa Bile Bitme",
+    "description": "Sayınız 101'i tamamlamasa bile, tek seferde açıp diğer oyunculara işleme yapmaksızın bitebilirsiniz (elden bitme). İşleme yapmadan tek seferde açıp bitebilirsiniz.",
+    "keywords": "sayı tutmadan bitme, elden bitme, işlemesiz bitme, tek açış"
+  },
+  {
+    "category": "HANİNİ KURALLARI",
+    "subCategory": "Eş ile İşleme Kuralları",
+    "title": "1 - EŞ İLE İŞLEME KURALLARI",
+    "description": "Eşin elini açtığında işlemeden bitsen dahi kafa atmış sayılmazsın yani cezalar 2 ile çarpılmaz.",
+    "keywords": "Burak,BURAK,burak,eş,işleme,kafa atma,ceza çarpma"
+  },
+  {
+    "category": "HANİNİ KURALLARI",
+    "subCategory": "Elden Bitme Kuralları",
+    "title": "2 - ELDEN BİTME KURALLARI",
+    "description": "Kimse açmadan birisi biterse (ELDEN). Bitenlere çift çizgi. Karşı takımın sayısı 2 ile çarpılır.",
+    "keywords": "Burak,BURAK,burak,elden bitme,çift çizgi,karşı takım,2 ile çarpma"
+  },
+  {
+    "category": "HANİNİ KURALLARI",
+    "subCategory": "Okey ile Elden Bitme",
+    "title": "3 - OKEY İLE ELDEN BİTME",
+    "description": "Okeye elden bitilirse (kimse açmazsa) bitene 4 çizgi. Karşı takımın cezası 4 ile çarpılır.",
+    "keywords": "Burak,BURAK,burak,okey,elden bitme,4 çizgi,4 ile çarpma"
+  },
+  {
+    "category": "HANİNİ KURALLARI",
+    "subCategory": "Konuşma Kuralları",
+    "title": "4 - KONUŞMA KURALLARI",
+    "description": "Eş ile taşın rengi sayısı hakkında konuşmak yasak. İşlek atmadan kontrol edebilir işlek attığını görürse uyarabilir.",
+    "keywords": "Burak,BURAK,burak,eş,konuşma yasağı,renk,sayı,işlek taş,kontrol,uyarı"
+  },
+  {
+    "category": "HANİNİ KURALLARI",
+    "subCategory": "El Uzatma Kuralları",
+    "title": "5 - EL UZATMA KURALLARI",
+    "description": "El sonu fark 100 dahil 100'den az ise 1 el uzar. O el sonunda da fark 100'den azsa 1 el daha uzar. 100'ün üstüne çıkana kadar oynanır.",
+    "keywords": "Burak,BURAK,burak,el uzatma,fark,100,uzama"
+  },
+  {
+    "category": "HANİNİ KURALLARI",
+    "subCategory": "Burak ile Eş Olma",
+    "title": "6 - BURAK İLE EŞ OLMA",
+    "description": "Burak'la eş olmak isteyen takımın cezaları silinir.",
+    "keywords": "Burak,BURAK,burak,eş olma,takım,ceza silme"
+  },
+  {
+    "category": "HANİNİ KURALLARI",
+    "subCategory": "Oyuncu Elden Bitme",
+    "title": "7 - OYUNCU ELDEN BİTME",
+    "description": "Oyuncu elden bitirse yerde taş olsa dahi çift çizgi yazılır.",
+    "keywords": "Burak,BURAK,burak,oyuncu,elden bitme,çift çizgi"
+  }
+]

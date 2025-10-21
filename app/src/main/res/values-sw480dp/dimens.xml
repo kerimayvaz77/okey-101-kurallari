@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card Dimensions - Small Tablet/Large Phone (720x1280) -->
+    <dimen name="card_margin_horizontal">12dp</dimen>
+    <dimen name="card_margin_vertical">8dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="card_elevation">12dp</dimen>
+    
+    <!-- Icon Dimensions - Small Tablet/Large Phone -->
+    <dimen name="icon_size">64dp</dimen>
+    <dimen name="icon_corner_radius">16dp</dimen>
+    <dimen name="icon_elevation">8dp</dimen>
+    
+    <!-- Text Dimensions - Small Tablet/Large Phone -->
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_body">13sp</dimen>
+    <dimen name="text_size_subtitle">11sp</dimen>
+    
+    <!-- Fragment Padding - Small Tablet/Large Phone -->
+    <dimen name="fragment_padding">12dp</dimen>
+    
+    <!-- Bottom Navigation - Small Tablet/Large Phone -->
+    <dimen name="bottom_nav_elevation">12dp</dimen>
+    <dimen name="bottom_nav_icon_size">24dp</dimen>
+    
+    <!-- Search Container - Small Tablet/Large Phone -->
+    <dimen name="search_container_margin_bottom">16dp</dimen>
+    <dimen name="search_container_padding">12dp</dimen>
+    <dimen name="search_container_corner_radius">12dp</dimen>
+    <dimen name="search_container_elevation">3dp</dimen>
+    
+    <!-- Header Dimensions - Small Tablet/Large Phone -->
+    <dimen name="header_margin_bottom">20dp</dimen>
+    <dimen name="header_padding">16dp</dimen>
+    <dimen name="header_corner_radius">20dp</dimen>
+    <dimen name="header_elevation">8dp</dimen>
+</resources>

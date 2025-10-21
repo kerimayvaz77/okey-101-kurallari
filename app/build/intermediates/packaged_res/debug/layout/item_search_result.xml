@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewRuleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textAppearance="@style/TextAppearance.App.Title"
+            android:text="🀄  "
+            android:drawablePadding="8dp"
+            tools:text="Okey Taşı Kullanımı" />
+
+        <TextView
+            android:id="@+id/textViewRuleCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textAppearance="@style/TextAppearance.App.Caption"
+            tools:text="Gösterge ve Okey Belirleme - Okey Kullanımı" />
+
+        <TextView
+            android:id="@+id/textViewRulePreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:textAppearance="@style/TextAppearance.App.Body"
+            android:maxLines="3"
+            android:ellipsize="end"
+            tools:text="Okey taşı herhangi bir taşın yerine kullanılabilir. Ancak okey taşı kullanıldığında hangi taşın yerine kullanıldığı açıkça belirtilmelidir..." />
+
+        <ImageView
+            android:id="@+id/imageViewRulePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:background="@color/surface_variant"
+            android:src="@drawable/kural"
+            android:contentDescription="Kural fotoğrafı" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

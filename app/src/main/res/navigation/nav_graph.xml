@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.okey101rules.ui.home.HomeFragment"
+        android:label="Okey 101 Kuralları"
+        tools:layout="@layout/fragment_home">
+        
+        <action
+            android:id="@+id/action_homeFragment_to_categoryDetailFragment"
+            app:destination="@id/categoryDetailFragment"
+            app:enterAnim="@anim/modern_slide_in_right"
+            app:exitAnim="@anim/modern_slide_out_left" />
+            
+        <action
+            android:id="@+id/action_homeFragment_to_searchResultsFragment"
+            app:destination="@id/searchResultsFragment"
+            app:enterAnim="@anim/modern_slide_in_right"
+            app:exitAnim="@anim/modern_slide_out_left" />
+            
+        <action
+            android:id="@+id/action_homeFragment_to_ruleDetailFragment"
+            app:destination="@id/ruleDetailFragment"
+            app:enterAnim="@anim/modern_slide_in_right"
+            app:exitAnim="@anim/modern_slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryDetailFragment"
+        android:name="com.example.okey101rules.ui.category.CategoryDetailFragment"
+        android:label="Kategori Detayı"
+        tools:layout="@layout/fragment_category_detail">
+        
+        <argument
+            android:name="category"
+            app:argType="string" />
+            
+        <action
+            android:id="@+id/action_categoryDetailFragment_to_ruleDetailFragment"
+            app:destination="@id/ruleDetailFragment"
+            app:enterAnim="@anim/modern_slide_in_right"
+            app:exitAnim="@anim/modern_slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ruleDetailFragment"
+        android:name="com.example.okey101rules.ui.detail.RuleDetailFragment"
+        android:label="Kural Detayı"
+        tools:layout="@layout/fragment_rule_detail">
+        
+        <argument
+            android:name="ruleId"
+            app:argType="integer" />
+        <argument
+            android:name="ruleTitle"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchResultsFragment"
+        android:name="com.example.okey101rules.ui.search.SearchResultsFragment"
+        android:label="Arama Sonuçları"
+        tools:layout="@layout/fragment_search_results">
+        
+        <argument
+            android:name="searchQuery"
+            app:argType="string" />
+            
+        <action
+            android:id="@+id/action_searchResultsFragment_to_ruleDetailFragment"
+            app:destination="@id/ruleDetailFragment"
+            app:enterAnim="@anim/modern_slide_in_right"
+            app:exitAnim="@anim/modern_slide_out_left" />
+    </fragment>
+
+    <!-- Yeni Fragment'lar -->
+    <fragment
+        android:id="@+id/generalInfoFragment"
+        android:name="com.example.okey101rules.ui.info.GeneralInfoFragment"
+        android:label="@string/nav_info"
+        tools:layout="@layout/fragment_general_info" />
+
+    <fragment
+        android:id="@+id/faqFragment"
+        android:name="com.example.okey101rules.ui.faq.FaqFragment"
+        android:label="@string/nav_faq"
+        tools:layout="@layout/fragment_faq" />
+
+    <fragment
+        android:id="@+id/strategyFragment"
+        android:name="com.example.okey101rules.ui.strategy.StrategyFragment"
+        android:label="@string/nav_strategy"
+        tools:layout="@layout/fragment_strategy"
+        app:enterAnim="@anim/modern_fade_in"
+        app:exitAnim="@anim/modern_fade_out"
+        app:popEnterAnim="@anim/modern_slide_in_right"
+        app:popExitAnim="@anim/modern_slide_out_left" />
+
+    <fragment
+        android:id="@+id/burakFragment"
+        android:name="com.example.okey101rules.ui.burak.BurakFragment"
+        android:label="@string/nav_burak"
+        tools:layout="@layout/fragment_burak"
+        app:enterAnim="@anim/modern_fade_in"
+        app:exitAnim="@anim/modern_fade_out"
+        app:popEnterAnim="@anim/modern_slide_in_right"
+        app:popExitAnim="@anim/modern_slide_out_left" />
+
+</navigation>

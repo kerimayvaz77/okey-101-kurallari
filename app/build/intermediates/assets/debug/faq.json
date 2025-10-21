@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "question": "Gösterge var mı?",
+    "answer": "Hayır. 101 oyununda göstergenin herhangi bir fonksiyonu yoktur. Gösterge sadece okey taşını belirlemek için kullanılır."
+  },
+  {
+    "id": 2,
+    "question": "Göstergeyi çift olarak kullanabilir miyim?",
+    "answer": "Hayır, kullanılamaz. Gösterge taşının 101 oyununda hiçbir özel fonksiyonu yoktur."
+  },
+  {
+    "id": 3,
+    "question": "Kaç çift açmam lazım?",
+    "answer": "101 oyununda minimum 5 çift gerekir."
+  },
+  {
+    "id": 4,
+    "question": "Çift açan biri seri açabilir mi?",
+    "answer": "Hayır, açamaz. Bir oyuncu ya seri ya çift açar. İkisini birden açamaz."
+  },
+  {
+    "id": 5,
+    "question": "Çift açan biri seriye işler yapabilir mi?",
+    "answer": "Evet yapabilir, ancak bir seferde en fazla 2 taş işleyebilir."
+  },
+  {
+    "id": 6,
+    "question": "12-13-1 oluyor mu?",
+    "answer": "Hayır, olmaz. 101 oyununda 13'ten sonra 1 gelerek seri oluşturulamaz. Bu geçerli değildir."
+  },
+  {
+    "id": 7,
+    "question": "Sayı tutmasa bile işleme yapmadan bitebilir miyim?",
+    "answer": "Evet. Sayınız 101'i tamamlamasa bile, tek seferde açıp diğer oyunculara işleme yapmaksızın bitebilirsiniz (elden bitme)."
+  },
+  {
+    "id": 8,
+    "question": "Yerdeki okeyi alıp açabilir miyim?",
+    "answer": "Açma sayınız tutmuyorsa alamazsınız. Okeyi alabilmek için önce elinizi açmalısınız."
+  },
+  {
+    "id": 9,
+    "question": "Çifte giden birisinin attığı taş alınıp el açılabilir mi?",
+    "answer": "Evet, alınabilir."
+  },
+  {
+    "id": 10,
+    "question": "Çifte giden biri, el açmasa bile çift diyerek yandan taş alabilir mi?",
+    "answer": "Evet alabilir, ancak çift açmamışsa alamaz."
+  },
+  {
+    "id": 11,
+    "question": "Oyuncu sayısı kaç kişi?",
+    "answer": "101 Okey tam olarak 4 oyuncu ile oynanır."
+  },
+  {
+    "id": 12,
+    "question": "Her oyuncuya kaç taş dağıtılır?",
+    "answer": "Her oyuncuya 21 taş dağıtılır. İlk başlayacak oyuncuya 22 taş verilir."
+  },
+  {
+    "id": 13,
+    "question": "Oyun hangi yöne oynanır?",
+    "answer": "Oyun saat yönünün tersine doğru ilerler."
+  },
+  {
+    "id": 14,
+    "question": "El açmak için minimum kaç puan gerekir?",
+    "answer": "El açmak için perlerin toplam değerinin en az 101 olması gerekir."
+  },
+  {
+    "id": 15,
+    "question": "Elden bitme nedir?",
+    "answer": "Diğer oyuncular hiç el açmadan bir oyuncu elini açıp aynı anda bitirirse 'elden bitmiş' olur. Bu durumda cezalar 2 katına çıkar."
+  }
+]
+

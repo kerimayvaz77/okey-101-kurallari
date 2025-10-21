@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_nav_rules_emoji"
+        android:title="@string/nav_rules" />
+    
+    <item
+        android:id="@+id/generalInfoFragment"
+        android:icon="@drawable/ic_nav_info_emoji"
+        android:title="@string/nav_info" />
+    
+    <item
+        android:id="@+id/faqFragment"
+        android:icon="@drawable/ic_nav_faq_emoji"
+        android:title="@string/nav_faq" />
+    
+    <item
+        android:id="@+id/strategyFragment"
+        android:icon="@drawable/ic_nav_strategy_emoji"
+        android:title="@string/nav_strategy" />
+    
+    <item
+        android:id="@+id/burakFragment"
+        android:icon="@drawable/ic_nav_burak_emoji"
+        android:title="@string/nav_burak" />
+</menu>

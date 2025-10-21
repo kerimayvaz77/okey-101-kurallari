@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <!-- Background Overlay -->
+    <View
+        android:id="@+id/backgroundOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dialog_overlay"
+        android:alpha="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Main Dialog Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/dialogCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="16dp"
+        app:cardBackgroundColor="@color/white"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:alpha="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <!-- Header with Icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="24dp">
+
+                <!-- Icon Container -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/iconContainer"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    app:cardCornerRadius="32dp"
+                    app:cardElevation="8dp"
+                    app:cardBackgroundColor="@color/primary"
+                    android:layout_marginEnd="20dp">
+
+                    <TextView
+                        android:id="@+id/textViewDetailEmoji"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="🧠"
+                        android:textSize="32sp"
+                        android:gravity="center"
+                        android:layout_gravity="center" />
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- Strategy Title -->
+                <TextView
+                    android:id="@+id/textViewDetailTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                    android:textColor="@color/text_primary"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="2dp"
+                    tools:text="🧠 El Açma Stratejisi" />
+
+            </LinearLayout>
+
+            <!-- Content -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/textViewDetailDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                    android:textColor="@color/text_secondary"
+                    android:lineSpacingExtra="6dp"
+                    android:textSize="16sp"
+                    tools:text="• El açmadan önce taşlarınızı kontrol edin\n• En az 5 çift olduğundan emin olun\n• Per yapma fırsatlarını değerlendirin\n• Risk almadan önce düşünün" />
+
+            </ScrollView>
+
+            <!-- Action Buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonExit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exit"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/red_500"
+                    app:cornerRadius="12dp"
+                    style="@style/Widget.Material3.Button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
