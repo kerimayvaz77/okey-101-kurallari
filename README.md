@@ -20,6 +20,9 @@ Okey 101 Kural Rehberi, Okey oyununun tüm kurallarını içeren, tamamen çevri
 - 📊 **İstatistikler**: Oyun performansınızı takip edin
 - 🎮 **Strateji Rehberi**: Okey oyunu için ipuçları ve stratejiler
 - ❓ **SSS Bölümü**: Sık sorulan sorular ve cevapları
+- 🔄 **Otomatik Güncellemeler**: Yeni özellikler için bildirimler
+- 📱 **Responsive Tasarım**: Tüm ekran boyutlarına uyumlu
+- 🎯 **Gelişmiş Navigasyon**: Daha kolay gezinme deneyimi
 
 ## 🛠️ Teknolojiler
 
@@ -31,6 +34,8 @@ Okey 101 Kural Rehberi, Okey oyununun tüm kurallarını içeren, tamamen çevri
 - **UI**: ViewBinding, Material Design 3
 - **Asenkron İşlemler**: Coroutines
 - **Animasyonlar**: Modern geçiş efektleri
+- **State Management**: LiveData, StateFlow
+- **Image Loading**: Optimized resource handling
 
 ## 📦 Kurulum
 
@@ -84,7 +89,16 @@ app/
 
 ## 🚀 Versiyon Geçmişi
 
-### v2.18 (Güncel)
+### v2.5 (Güncel)
+- 🔄 Otomatik güncelleme bildirimleri
+- 📱 Responsive tasarım iyileştirmeleri
+- 🎯 Gelişmiş navigasyon sistemi
+- ⚡ Performans optimizasyonları
+- 🎨 UI/UX iyileştirmeleri
+- 🐛 Hata düzeltmeleri
+- 📊 Geliştirilmiş istatistik sistemi
+
+### v2.18
 - ⚙️ Yeni ayarlar menüsü eklendi
 - 📊 İstatistik takip sistemi
 - 🎮 Geliştirilmiş strateji rehberi
@@ -122,6 +136,7 @@ app/
 - **Tema Seçimi**: Açık/koyu tema desteği
 - **Font Boyutu**: Okunabilirlik için ayarlanabilir font
 - **Bildirimler**: Önemli güncellemeler için bildirimler
+- **Responsive Tasarım**: Tüm cihazlarda mükemmel görünüm
 
 ## 🤝 Katkıda Bulunma
 
@@ -153,6 +168,5 @@ Bu projeye katkıda bulunan herkese teşekkürler! 🙏
 ---
 
 <div align="center">
-  <p>❤️ ile yapılmıştır</p>
-  <p><strong>Okey 101 Kural Rehberi v2.18</strong></p>
+  <p><strong>Okey 101 Kural Rehberi v2.5</strong></p>
 </div>

@@ -1,0 +1,534 @@
+[
+  {
+    "id": "TC001",
+    "title": "Home Screen Load and Category Display",
+    "description": "Verify that the home screen loads successfully and displays all categories correctly with a search box.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Launch the Okey 101 Kural Rehberi app."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify that the home screen is displayed."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify all expected categories are listed."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a search box is visible and interactable."
+      }
+    ]
+  },
+  {
+    "id": "TC002",
+    "title": "Category Detail Navigation and Rule Listing",
+    "description": "Verify user can select a category from home screen and view listed rules in the category detail page.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "From home screen, tap on a category."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify navigation to category detail page."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify rules relevant to the category are displayed in a list."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify smooth and correct scrolling of list."
+      }
+    ]
+  },
+  {
+    "id": "TC003",
+    "title": "Rule Detail Page Displays Correct Information",
+    "description": "Verify selecting a rule navigates to the rule detail page showing full explanation and content.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to a category detail page."
+      },
+      {
+        "type": "action",
+        "description": "Select a rule from the list."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify navigation to rule detail page."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify full explanation of the rule is visible."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify no data truncation or layout issues."
+      }
+    ]
+  },
+  {
+    "id": "TC004",
+    "title": "Keyword Search Returns Instant and Accurate Results",
+    "description": "Verify that keyword-based search returns instant, relevant rule results matching the input query.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Tap on the home screen search box."
+      },
+      {
+        "type": "action",
+        "description": "Enter a known keyword related to a rule."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify search results are shown instantly."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify only relevant rules based on the keyword are listed."
+      },
+      {
+        "type": "action",
+        "description": "Clear search and verify empty or default results."
+      }
+    ]
+  },
+  {
+    "id": "TC005",
+    "title": "Search Result Navigation to Rule Detail",
+    "description": "Verify selecting a rule from search results navigates correctly to the rule detail page.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Perform a keyword search."
+      },
+      {
+        "type": "action",
+        "description": "Select a rule from the search result list."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify navigation to the rule detail page."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify rule detail content matches the selected search result."
+      }
+    ]
+  },
+  {
+    "id": "TC006",
+    "title": "FAQ Section Loads and Displays Questions and Answers",
+    "description": "Verify that the FAQ section displays all commonly asked questions and their correct answers.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to the FAQ section from the main menu."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the list of FAQs is displayed."
+      },
+      {
+        "type": "action",
+        "description": "Select an FAQ."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the correct answer is displayed for the selected FAQ."
+      }
+    ]
+  },
+  {
+    "id": "TC007",
+    "title": "Strategy Guide Section Displays Tips and Tactics Correctly",
+    "description": "Verify the strategy guide section loads and shows tips and tactics for Okey players accurately.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to the strategy guide section from main menu."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the list of strategies is displayed."
+      },
+      {
+        "type": "action",
+        "description": "Select a strategy tip."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify detailed information of selected strategy is shown correctly."
+      }
+    ]
+  },
+  {
+    "id": "TC008",
+    "title": "General Information Section Availability",
+    "description": "Verify that the general information section loads and displays content about the Okey game.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to the general information section."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify relevant information cards or text about Okey are displayed."
+      }
+    ]
+  },
+  {
+    "id": "TC009",
+    "title": "Settings Menu Functionality with Theme and Font Size Customization",
+    "description": "Verify that users can change theme (including dark mode) and font size from settings and that preferences persist across app restarts.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Open the settings menu."
+      },
+      {
+        "type": "action",
+        "description": "Change the app theme to dark mode."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify UI updates to dark mode immediately."
+      },
+      {
+        "type": "action",
+        "description": "Change the font size to a larger setting."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text size updates accordingly."
+      },
+      {
+        "type": "action",
+        "description": "Close and restart the app."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify theme and font size settings persist after restart."
+      }
+    ]
+  },
+  {
+    "id": "TC010",
+    "title": "Favorites Feature - Marking and Accessing Rules",
+    "description": "Verify user can mark/unmark rules as favorites and access them quickly from favorites section.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to a rule detail page."
+      },
+      {
+        "type": "action",
+        "description": "Mark the rule as favorite."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the rule is added to favorites list."
+      },
+      {
+        "type": "action",
+        "description": "Navigate to favorites section."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the marked rule is listed."
+      },
+      {
+        "type": "action",
+        "description": "Unmark the rule from favorites."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the rule is removed from favorites list."
+      }
+    ]
+  },
+  {
+    "id": "TC011",
+    "title": "Offline Usage Validation",
+    "description": "Verify all features of the app (categories, rule details, search, FAQ, strategy, settings) work correctly without internet connectivity.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Launch app with internet connection, allow data to populate."
+      },
+      {
+        "type": "action",
+        "description": "Turn off internet connection (enable airplane mode)."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the app opens successfully."
+      },
+      {
+        "type": "action",
+        "description": "Navigate through categories, view rule details."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify all content loads properly from local Room database."
+      },
+      {
+        "type": "action",
+        "description": "Perform keyword search."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify search works offline with expected results."
+      },
+      {
+        "type": "action",
+        "description": "Access FAQ and Strategy sections."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify FAQs and Strategy tips display without internet."
+      }
+    ]
+  },
+  {
+    "id": "TC012",
+    "title": "Material Design 3 UI Compliance and Dark Mode Synchronization",
+    "description": "Verify UI elements comply with Material Design 3 guidelines and that dark mode is synchronized with system theme.",
+    "category": "ui",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Compare app UI components to Material Design 3 specifications."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify typography, spacing, colors, and controls match design specs."
+      },
+      {
+        "type": "action",
+        "description": "Toggle device system theme between light and dark modes."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify app theme changes accordingly and synchronizes with system theme."
+      }
+    ]
+  },
+  {
+    "id": "TC013",
+    "title": "Statistics Tracking Accuracy",
+    "description": "Verify that user gameplay performance statistics are recorded accurately and displayed correctly.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Perform simulated gameplay interactions that impact statistics."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify that performance statistics increment or update accordingly."
+      },
+      {
+        "type": "action",
+        "description": "Navigate to statistics display section."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify statistics values match expected results from user activities."
+      }
+    ]
+  },
+  {
+    "id": "TC014",
+    "title": "Data Integrity in Room Database",
+    "description": "Verify that data stored in the Room database is consistent and accurate after various operations and saves.",
+    "category": "error handling",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Add, update, and delete sample rule entries if supported."
+      },
+      {
+        "type": "action",
+        "description": "Close and reopen the app."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify data persists as expected and no corruption is present."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify queries return correct data matching the stored records."
+      }
+    ]
+  },
+  {
+    "id": "TC015",
+    "title": "Dependency Injection Configuration via Hilt",
+    "description": "Verify app modules correctly use Hilt for dependency injection without runtime errors and with proper scoping.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Launch the app and navigate through various feature modules."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify no errors or crashes due to dependency injection failures occur."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify dependencies are injected properly in ViewModels, Repositories, and other components by inspecting logs or debugging."
+      }
+    ]
+  },
+  {
+    "id": "TC016",
+    "title": "Smooth Navigation Between Fragments",
+    "description": "Verify navigation between different fragments (home, category detail, rule detail, FAQ, strategy, settings) is smooth, including back button behavior.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate through each main fragment."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify fragment transitions are smooth and without glitches."
+      },
+      {
+        "type": "action",
+        "description": "Use back button to navigate backwards through fragments."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify navigation order respects expected back stack behavior."
+      }
+    ]
+  },
+  {
+    "id": "TC017",
+    "title": "Error Handling for Search with No Results",
+    "description": "Verify the app handles search queries with no matching results gracefully, providing user feedback.",
+    "category": "error handling",
+    "priority": "Low",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Enter a keyword unlikely to match any rule."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a user-friendly message indicating no results found is displayed."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify no crashes or freezes occur."
+      }
+    ]
+  },
+  {
+    "id": "TC018",
+    "title": "Font Size Limits and Edge Cases",
+    "description": "Verify font size adjustments respect minimum and maximum allowed values and do not break UI layout.",
+    "category": "ui",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Set font size to the minimum allowed value."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify UI is legible and elements are not cut off."
+      },
+      {
+        "type": "action",
+        "description": "Set font size to the maximum allowed value."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify UI adjusts without overflow or layout breakage."
+      }
+    ]
+  },
+  {
+    "id": "TC019",
+    "title": "Concurrent Coroutines and LiveData Updates",
+    "description": "Verify that asynchronous operations using Kotlin Coroutines and LiveData update the UI data streams correctly without race conditions or crashes.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Trigger multiple data fetches and UI updates simultaneously (e.g., search while loading category)."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify UI data is consistent, no stale or mixed data appears."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify no crashes or deadlocks occur during concurrent operations."
+      }
+    ]
+  },
+  {
+    "id": "TC020",
+    "title": "UI Adaptors Display Correct Data and Handle Empty States",
+    "description": "Verify RecyclerView adapters for categories, rules, FAQ, info cards, strategies, and search results display correct data and handle empty datasets gracefully.",
+    "category": "ui",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Observe each RecyclerView in the app with normal data."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify list items match underlying data correctly."
+      },
+      {
+        "type": "action",
+        "description": "Test cases with empty or no data available."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify empty state UI is shown and no crashes occur."
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3000",
+  "executionArgs": {
+    "projectName": "101 Kuralları",
+    "projectPath": "/Users/kerimayvaz/Desktop/101 Kuralları",
+    "testIds": [],
+    "additionalInstruction": "Bu Android uygulaması Okey 101 oyununun kurallarını gösteren bir rehber uygulamasıdır. Uygulama tamamen çevrimdışı çalışır ve Room veritabanı kullanır. Tüm testleri kapsamlı bir şekilde çalıştırın.",
+    "envs": {
+      "API_KEY": "sk-user-7Jitmlid9bqzu-U2GSyzjdbaG_RoWa5lTiBs7Hadx-txmE4umkHq18SOiX8I_E59nhbLGe-rmnOz9E2fuprZf176nuskMWGNiwONs3i7BbcW7BZQy_j89x0XIeIaTRWndtQ"
+    }
+  }
+}

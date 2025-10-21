@@ -56,7 +56,7 @@ class SettingsFragment : Fragment() {
         
         // Gönder butonunu devre dışı bırak
         binding.sendErrorButton.isEnabled = false
-        binding.sendErrorButton.text = "📧 Gönderiliyor..."
+        binding.sendErrorButton.text = "Gönderiliyor..."
         
         // Arka planda mail gönder
         CoroutineScope(Dispatchers.IO).launch {
@@ -65,19 +65,19 @@ class SettingsFragment : Fragment() {
                 
                 withContext(Dispatchers.Main) {
                     binding.sendErrorButton.isEnabled = true
-                    binding.sendErrorButton.text = "📧 Gönder"
+                    binding.sendErrorButton.text = "Gönder"
                     
                     if (success) {
-                        showSuccessDialog()
+                        Toast.makeText(requireContext(), "✅ Mesajınız başarıyla gönderildi!", Toast.LENGTH_LONG).show()
                         binding.errorDescription.text?.clear()
                     } else {
-                        Toast.makeText(requireContext(), "Mail gönderilemedi. Lütfen tekrar deneyin.", Toast.LENGTH_LONG).show()
+                        Toast.makeText(requireContext(), "❌ Mail gönderilemedi. Lütfen tekrar deneyin.", Toast.LENGTH_LONG).show()
                     }
                 }
             } catch (e: Exception) {
                 withContext(Dispatchers.Main) {
                     binding.sendErrorButton.isEnabled = true
-                    binding.sendErrorButton.text = "📧 Gönder"
+                    binding.sendErrorButton.text = "Gönder"
                     Toast.makeText(requireContext(), "Bir hata oluştu: ${e.message}", Toast.LENGTH_LONG).show()
                 }
             }
@@ -133,16 +133,6 @@ class SettingsFragment : Fragment() {
         }
     }
     
-    private fun showSuccessDialog() {
-        android.app.AlertDialog.Builder(requireContext())
-            .setTitle("✅ Başarılı!")
-            .setMessage("Hata bildiriminiz başarıyla gönderildi.\n\nEn kısa sürede inceleyip size dönüş yapacağız.")
-            .setPositiveButton("Tamam") { dialog, _ ->
-                dialog.dismiss()
-            }
-            .setIcon(android.R.drawable.ic_dialog_info)
-            .show()
-    }
 
     private fun setupSocialMediaLinks() {
         // Instagram link

@@ -15,8 +15,8 @@ android {
         applicationId = "com.example.okey101rules"
         minSdk = 21
         targetSdk = 34
-        versionCode = 18
-        versionName = "2.18"
+        versionCode = 25
+        versionName = "2.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

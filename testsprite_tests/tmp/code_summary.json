@@ -1,0 +1,147 @@
+{
+  "tech_stack": [
+    "Kotlin",
+    "Android",
+    "Room Database",
+    "Hilt Dependency Injection",
+    "Navigation Component",
+    "Material Design 3",
+    "ViewBinding",
+    "Coroutines",
+    "LiveData",
+    "MVVM Architecture"
+  ],
+  "features": [
+    {
+      "name": "Ana Ekran (Home)",
+      "description": "Kategorileri gösteren ve arama işlevselliği sunan ana ekran",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/home/HomeFragment.kt",
+        "app/src/main/java/com/example/okey101rules/ui/home/HomeViewModel.kt"
+      ]
+    },
+    {
+      "name": "Kural Detay Sayfası",
+      "description": "Seçilen kuralın detaylı açıklamasını gösteren sayfa",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/detail/RuleDetailFragment.kt",
+        "app/src/main/java/com/example/okey101rules/ui/detail/RuleDetailViewModel.kt"
+      ]
+    },
+    {
+      "name": "Kategori Detay Sayfası",
+      "description": "Belirli bir kategorideki kuralları listeleyen sayfa",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/category/CategoryDetailFragment.kt",
+        "app/src/main/java/com/example/okey101rules/ui/category/CategoryViewModel.kt"
+      ]
+    },
+    {
+      "name": "Arama Sistemi",
+      "description": "Kuralları anahtar kelimelere göre arayan sistem",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/search/SearchResultsFragment.kt",
+        "app/src/main/java/com/example/okey101rules/ui/search/SearchViewModel.kt"
+      ]
+    },
+    {
+      "name": "SSS Bölümü",
+      "description": "Sık sorulan sorular ve cevaplarını gösteren bölüm",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/faq/FaqFragment.kt",
+        "app/src/main/java/com/example/okey101rules/ui/faq/FaqViewModel.kt",
+        "app/src/main/java/com/example/okey101rules/data/Faq.kt"
+      ]
+    },
+    {
+      "name": "Strateji Rehberi",
+      "description": "Okey oyunu için strateji ipuçları ve taktikler",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/strategy/StrategyFragment.kt",
+        "app/src/main/java/com/example/okey101rules/ui/strategy/StrategyViewModel.kt",
+        "app/src/main/java/com/example/okey101rules/data/Strategy.kt"
+      ]
+    },
+    {
+      "name": "Genel Bilgiler",
+      "description": "Okey oyunu hakkında genel bilgileri gösteren bölüm",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/info/GeneralInfoFragment.kt",
+        "app/src/main/java/com/example/okey101rules/ui/info/GeneralInfoViewModel.kt",
+        "app/src/main/java/com/example/okey101rules/data/InfoCard.kt"
+      ]
+    },
+    {
+      "name": "Ayarlar Menüsü",
+      "description": "Uygulama ayarlarını yöneten menü",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/settings/SettingsFragment.kt"
+      ]
+    },
+    {
+      "name": "Özel Burak Bölümü",
+      "description": "Özel içerik ve özellikler için ayrılmış bölüm",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/burak/BurakFragment.kt",
+        "app/src/main/java/com/example/okey101rules/ui/burak/BurakViewModel.kt"
+      ]
+    },
+    {
+      "name": "Veri Katmanı",
+      "description": "Room veritabanı ve repository pattern ile veri yönetimi",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/data/Rule.kt",
+        "app/src/main/java/com/example/okey101rules/data/RuleRepository.kt",
+        "app/src/main/java/com/example/okey101rules/database/AppDatabase.kt",
+        "app/src/main/java/com/example/okey101rules/database/RuleDao.kt",
+        "app/src/main/java/com/example/okey101rules/database/DatabasePopulator.kt"
+      ]
+    },
+    {
+      "name": "UI Adaptörleri",
+      "description": "RecyclerView için özel adaptörler",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/adapters/CategoryAdapter.kt",
+        "app/src/main/java/com/example/okey101rules/ui/adapters/FaqAdapter.kt",
+        "app/src/main/java/com/example/okey101rules/ui/adapters/InfoCardAdapter.kt",
+        "app/src/main/java/com/example/okey101rules/ui/adapters/RuleTitleAdapter.kt",
+        "app/src/main/java/com/example/okey101rules/ui/adapters/SearchResultAdapter.kt",
+        "app/src/main/java/com/example/okey101rules/ui/adapters/StrategyAdapter.kt"
+      ]
+    },
+    {
+      "name": "Dialog Bileşenleri",
+      "description": "Detay gösterimi için modal dialog'lar",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/dialogs/FaqDetailDialog.kt",
+        "app/src/main/java/com/example/okey101rules/ui/dialogs/InfoDetailDialog.kt",
+        "app/src/main/java/com/example/okey101rules/ui/dialogs/StrategyDetailDialog.kt"
+      ]
+    },
+    {
+      "name": "Ana Aktivite",
+      "description": "Uygulamanın ana aktivitesi ve navigasyon yönetimi",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/ui/MainActivity.kt"
+      ]
+    },
+    {
+      "name": "Dependency Injection",
+      "description": "Hilt ile bağımlılık enjeksiyonu konfigürasyonu",
+      "files": [
+        "app/src/main/java/com/example/okey101rules/di/DatabaseModule.kt",
+        "app/src/main/java/com/example/okey101rules/OkeyRulesApplication.kt"
+      ]
+    },
+    {
+      "name": "Statik Veri Dosyaları",
+      "description": "JSON formatında kurallar, SSS ve strateji verileri",
+      "files": [
+        "app/src/main/assets/rules.json",
+        "app/src/main/assets/faq.json",
+        "app/src/main/assets/strategies.json",
+        "app/src/main/assets/info.json"
+      ]
+    }
+  ]
+}
