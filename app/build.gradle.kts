@@ -15,10 +15,19 @@ android {
         applicationId = "com.example.okey101rules"
         minSdk = 21
         targetSdk = 34
-        versionCode = 25
-        versionName = "2.5"
+        versionCode = 30
+        versionName = "3.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        create("release") {
+            storeFile = file("../release.keystore")
+            storePassword = "okey101pass"
+            keyAlias = "okey101"
+            keyPassword = "okey101pass"
+        }
     }
 
     buildTypes {
@@ -28,6 +37,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     

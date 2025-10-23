@@ -71,8 +71,7 @@ app/
 │   │   │   ├── faq/        # SSS bölümü
 │   │   │   ├── strategy/   # Strateji rehberi
 │   │   │   ├── info/       # Genel bilgiler
-│   │   │   ├── settings/   # Ayarlar menüsü
-│   │   │   └── burak/      # Özel bölüm
+│   │   │   └── settings/   # Ayarlar menüsü
 │   │   ├── util/           # Yardımcı sınıflar
 │   │   └── di/             # Dependency Injection
 │   ├── res/                # Kaynaklar (layout, drawable, values)
@@ -89,7 +88,19 @@ app/
 
 ## 🚀 Versiyon Geçmişi
 
-### v2.5 (Güncel)
+### v3.0 (Güncel)
+- 🎉 Büyük güncelleme! Yeni özellikler ve iyileştirmeler
+- 🔄 Geliştirilmiş otomatik güncelleme sistemi
+- 📱 Daha iyi responsive tasarım ve kullanıcı deneyimi
+- 🎯 Yenilenmiş navigasyon sistemi
+- ⚡ Önemli performans optimizasyonları
+- 🎨 Modern UI/UX iyileştirmeleri
+- 🐛 Kritik hata düzeltmeleri
+- 📊 Geliştirilmiş istatistik ve analitik sistemi
+- 🔍 Daha akıllı arama algoritması
+- 🌟 Yeni özellikler ve kullanıcı geri bildirimleri
+
+### v2.6
 - 🔄 Otomatik güncelleme bildirimleri
 - 📱 Responsive tasarım iyileştirmeleri
 - 🎯 Gelişmiş navigasyon sistemi
@@ -168,5 +179,5 @@ Bu projeye katkıda bulunan herkese teşekkürler! 🙏
 ---
 
 <div align="center">
-  <p><strong>Okey 101 Kural Rehberi v2.5</strong></p>
+  <p><strong>Okey 101 Kural Rehberi v3.0</strong></p>
 </div>
