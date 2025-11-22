@@ -88,7 +88,14 @@ app/
 
 ## 🚀 Versiyon Geçmişi
 
-### v3.0 (Güncel)
+### v3.1 (Güncel)
+- 🧹 Kod temizliği: Kullanılmayan import'lar ve kodlar kaldırıldı
+- 🐛 Hata düzeltmeleri: Kullanılmayan değişkenler temizlendi
+- ⚡ Performans iyileştirmeleri: Kod optimizasyonları yapıldı
+- 📦 Kod kalitesi: Daha temiz ve bakımı kolay kod yapısı
+- 🔧 İyileştirmeler: Genel kod iyileştirmeleri
+
+### v3.0
 - 🎉 Büyük güncelleme! Yeni özellikler ve iyileştirmeler
 - 🔄 Geliştirilmiş otomatik güncelleme sistemi
 - 📱 Daha iyi responsive tasarım ve kullanıcı deneyimi
@@ -179,5 +186,5 @@ Bu projeye katkıda bulunan herkese teşekkürler! 🙏
 ---
 
 <div align="center">
-  <p><strong>Okey 101 Kural Rehberi v3.0</strong></p>
+  <p><strong>Okey 101 Kural Rehberi v3.1</strong></p>
 </div>

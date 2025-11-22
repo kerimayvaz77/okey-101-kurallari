@@ -2,16 +2,12 @@ package com.example.okey101rules.ui
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
-import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import android.view.View
 import android.view.animation.OvershootInterpolator
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
 import com.example.okey101rules.R
 import com.example.okey101rules.database.DatabasePopulator
 import com.example.okey101rules.databinding.ActivityMainBinding
@@ -83,12 +79,6 @@ class MainActivity : AppCompatActivity() {
             navController.navigate(R.id.strategyFragment)
         }
         
-        binding.burakFragment.setOnClickListener {
-            setSelectedTab(R.id.burakFragment)
-            animateBottomNavItem(R.id.burakFragment, true)
-            navController.navigate(R.id.burakFragment)
-        }
-        
         binding.settingsFragment.setOnClickListener {
             setSelectedTab(R.id.settingsFragment)
             animateBottomNavItem(R.id.settingsFragment, true)
@@ -105,7 +95,6 @@ class MainActivity : AppCompatActivity() {
         binding.generalInfoFragment.setBackgroundColor(android.graphics.Color.TRANSPARENT)
         binding.faqFragment.setBackgroundColor(android.graphics.Color.TRANSPARENT)
         binding.strategyFragment.setBackgroundColor(android.graphics.Color.TRANSPARENT)
-        binding.burakFragment.setBackgroundColor(android.graphics.Color.TRANSPARENT)
         binding.settingsFragment.setBackgroundColor(android.graphics.Color.TRANSPARENT)
         
         // Set selected tab background
@@ -114,7 +103,6 @@ class MainActivity : AppCompatActivity() {
             R.id.generalInfoFragment -> binding.generalInfoFragment
             R.id.faqFragment -> binding.faqFragment
             R.id.strategyFragment -> binding.strategyFragment
-            R.id.burakFragment -> binding.burakFragment
             R.id.settingsFragment -> binding.settingsFragment
             else -> null
         }
@@ -123,10 +111,6 @@ class MainActivity : AppCompatActivity() {
     }
     
     private fun setupCustomToolbar() {
-        val navHostFragment = supportFragmentManager
-            .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-        val navController = navHostFragment.navController
-        
         // Setup modern back button
         setupModernBackButton()
         
@@ -157,7 +141,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.generalInfoFragment,
                 R.id.faqFragment,
                 R.id.strategyFragment,
-                R.id.burakFragment,
                 R.id.settingsFragment
             )
             binding.backButton.visibility = if (isTopLevelDestination) android.view.View.GONE else android.view.View.VISIBLE
@@ -219,7 +202,6 @@ class MainActivity : AppCompatActivity() {
             R.id.generalInfoFragment -> binding.generalInfoFragment
             R.id.faqFragment -> binding.faqFragment
             R.id.strategyFragment -> binding.strategyFragment
-            R.id.burakFragment -> binding.burakFragment
             R.id.settingsFragment -> binding.settingsFragment
             else -> null
         }

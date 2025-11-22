@@ -4,7 +4,12 @@ Bu klasör Okey 101 Kural Rehberi uygulamasının tüm release dosyalarını iç
 
 ## 📱 Mevcut Sürümler
 
-### v3.0 (Güncel - Büyük Güncelleme)
+### v3.1 (Güncel - Kod Temizliği ve İyileştirmeler)
+- **APK**: `okey-101-kurallari-v3.1.apk` (7.3MB)
+- **Release Notes**: `RELEASE_NOTES_v3.1.md`
+- **Özellikler**: Kod temizliği, Hata düzeltmeleri, Performans iyileştirmeleri, Kod optimizasyonları
+
+### v3.0
 - **APK**: `okey-101-kurallari-v3.0.apk` (7.3MB)
 - **Release Notes**: `RELEASE_NOTES_v3.0.md`
 - **Özellikler**: Büyük güncelleme, Performans iyileştirmeleri, Modern UI/UX, Gelişmiş navigasyon
